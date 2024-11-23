@@ -29,13 +29,13 @@ public class StateMachine : MonoBehaviour
     private void Update() 
     {
         var newState = _currentState.StateUpdate();
-        if (newState) ChangeState(newState);
+        if (newState != null) ChangeState(newState);
     }
 
     private void FixedUpdate() 
     {
         var newState = _currentState.StateFixedUpdate();
-        if (newState) ChangeState(newState);
+        if (newState != null) ChangeState(newState);
     }
 
     private void ChangeState(State newState)

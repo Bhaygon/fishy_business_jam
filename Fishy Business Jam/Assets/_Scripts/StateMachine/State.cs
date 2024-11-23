@@ -5,9 +5,12 @@ public abstract class State : MonoBehaviour
     public bool isComplete { get; protected set; }
     protected float startTime;
     public float time => Time.time - startTime;
+    public Player Player { get; protected set; }
     
-    public Animator animator;
-    public Rigidbody2D body;
+    public virtual void StateInitialize(Player player)
+    {
+        
+    }
     
     public virtual void StateStart()
     {

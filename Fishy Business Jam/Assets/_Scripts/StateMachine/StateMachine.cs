@@ -7,7 +7,7 @@ public class StateMachine : MonoBehaviour
     public State startingState;
     private State _currentState;
     public Transform stateParent;
-    
+    public Player Player;
     public TMP_Text stateText;
 
     private void Start()
@@ -20,7 +20,7 @@ public class StateMachine : MonoBehaviour
 
         foreach (var item in states)
         {
-            item.StateStart();
+            item.StateInitialize(Player);
         }
 
         ChangeState(startingState);

@@ -8,14 +8,18 @@ public class IdleGroundState : State
 
     public override State StateUpdate()
     {
+        Player.CountTimers();
+        Player.JumpChecks();
+        
         return null;
     }
 
     public override State StateFixedUpdate()
     {
         Player.CollisionChecks();
+        Player.Jump();
 
-        if (Player.IsGrounded)
+        if (Player.IsGrounded())
         {
             Player.MoveOnGround(Player.GroundAcceleration, Player.GroundDeceleration, new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")));
         }

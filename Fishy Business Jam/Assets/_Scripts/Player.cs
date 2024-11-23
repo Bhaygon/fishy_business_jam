@@ -5,11 +5,9 @@ using UnityEngine.Serialization;
 
 public class Player : MonoBehaviour
 {
-    public State Air, Ground, IdleGround, Interact, Run, Swim;
+    public State Moving;
 
-    [Header("References")] [SerializeField]
-    private Rigidbody2D _rb;
-
+    [Header("References")] public Rigidbody2D Rb;
     [SerializeField] private Transform PlayerTransform;
     [SerializeField] private Collider2D _feetColl, _bodyColl; // On foot
 
@@ -84,7 +82,7 @@ public class Player : MonoBehaviour
         _isFacingRight = true;
     }
 
-    public void MoveOnGround(float acceleration, float deceleration, Vector2 moveInput)
+    public void Move(float acceleration, float deceleration, Vector2 moveInput)
     {
         if (moveInput != Vector2.zero)
         {
@@ -109,7 +107,7 @@ public class Player : MonoBehaviour
             _moveVelocity = Vector2.Lerp(_moveVelocity, Vector2.zero, deceleration * Time.fixedDeltaTime);
         }
 
-        _rb.linearVelocity = new Vector2(_moveVelocity.x, _rb.linearVelocity.y);
+        Rb.linearVelocity = new Vector2(_moveVelocity.x, Rb.linearVelocity.y);
     }
 
     public void TurnCheck(Vector2 moveInput)
@@ -341,7 +339,7 @@ public class Player : MonoBehaviour
 
         VerticalVelocity = Mathf.Clamp(VerticalVelocity, -MaxFallSpeed, 50f);
 
-        _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, VerticalVelocity);
+        Rb.linearVelocity = new Vector2(Rb.linearVelocity.x, VerticalVelocity);
     }
 
     private void OnValidate()

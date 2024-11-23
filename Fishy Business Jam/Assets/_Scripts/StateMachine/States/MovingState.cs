@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class IdleGroundState : State
+public class MovingState : State
 {
     public override void StateStart()
     {
@@ -10,24 +10,26 @@ public class IdleGroundState : State
     {
         Player.CountTimers();
         Player.JumpChecks();
-        
+
         return null;
     }
 
     public override State StateFixedUpdate()
     {
+        var rawInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
         Player.CollisionChecks();
         Player.Jump();
 
         if (Player.IsGrounded())
         {
-            Player.MoveOnGround(Player.GroundAcceleration, Player.GroundDeceleration, new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")));
+            Player.Move(Player.GroundAcceleration, Player.GroundDeceleration, rawInput);
         }
         else
         {
-            Player.MoveOnGround(Player.AirAcceleration, Player.AirDeceleration, new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")));
+            Player.Move(Player.AirAcceleration, Player.AirDeceleration, rawInput);
         }
-        
+
         return null;
     }
 

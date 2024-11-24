@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 4484959531191921837}
   m_Layer: 0
   m_Name: PISTOLSHRIMP
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,8 +140,19 @@ MonoBehaviour:
   ObstacleLayer:
     serializedVersion: 2
     m_Bits: 4096
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 4096
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 16384
   _speed: 1
   _obstacleDetectRange: 1
+  _groundDetectionRayLength: 0.03
+  _attackRange: 6
+  _attackStart: 1
+  _attackCooldown: 3
+  _projectile: {fileID: 848168126254247954, guid: 3b61d528b6c52a04c82fc432dee48bec, type: 3}
 --- !u!95 &4484959531191921837
 Animator:
   serializedVersion: 7

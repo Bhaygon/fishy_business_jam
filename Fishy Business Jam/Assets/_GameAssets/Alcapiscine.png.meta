@@ -152,7 +152,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alcapiscine_0
+      name: Alcapiscine_0_Idle
       rect:
         serializedVersion: 2
         x: 0
@@ -240,7 +240,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_4
+      name: Alcapiscine_4_Run
       rect:
         serializedVersion: 2
         x: 0
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_8
+      name: Alcapiscine_8_Attack
       rect:
         serializedVersion: 2
         x: 0
@@ -328,7 +328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_12
+      name: Alcapiscine_12_Dead
       rect:
         serializedVersion: 2
         x: 0
@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_13
+      name: Alcapiscine_13_SwimIdle
       rect:
         serializedVersion: 2
         x: 0
@@ -438,7 +438,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_17
+      name: Alcapiscine_17_Swim
       rect:
         serializedVersion: 2
         x: 0
@@ -526,7 +526,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_21
+      name: Alcapiscine_21_SwimDead
       rect:
         serializedVersion: 2
         x: 0
@@ -548,7 +548,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_22
+      name: Alcapiscine_22_JumpStart
       rect:
         serializedVersion: 2
         x: 0
@@ -570,7 +570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_23
+      name: Alcapiscine_23_Jumping
       rect:
         serializedVersion: 2
         x: 0
@@ -614,7 +614,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_25
+      name: Alcapiscine_25_Landing
       rect:
         serializedVersion: 2
         x: 0
@@ -658,7 +658,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_27
+      name: Alcapiscine_27_InteractGun
       rect:
         serializedVersion: 2
         x: 0
@@ -724,7 +724,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_30
+      name: Alcapiscine_30_Interact
       rect:
         serializedVersion: 2
         x: 0
@@ -790,7 +790,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_33
+      name: Alcapiscine_33_Gun
       rect:
         serializedVersion: 2
         x: 0
@@ -922,7 +922,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alcapiscine_39
+      name: Alcapiscine_39_Bullet
       rect:
         serializedVersion: 2
         x: 0
@@ -957,46 +957,46 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Alcapiscine_0: -4443981829770707596
+      Alcapiscine_0_Idle: -4443981829770707596
       Alcapiscine_1: -1708043585467035923
       Alcapiscine_10: 6255490427484095910
       Alcapiscine_11: 2202569866568875269
-      Alcapiscine_12: -3819157427616867298
-      Alcapiscine_13: -1600204424121997872
+      Alcapiscine_12_Dead: -3819157427616867298
+      Alcapiscine_13_SwimIdle: -1600204424121997872
       Alcapiscine_14: 780014068
       Alcapiscine_15: -847902231
       Alcapiscine_16: 1251472511
-      Alcapiscine_17: -141836094
+      Alcapiscine_17_Swim: -141836094
       Alcapiscine_18: -1240471418
       Alcapiscine_19: 997645291
       Alcapiscine_2: -3496367036635608310
       Alcapiscine_20: -1948099341
-      Alcapiscine_21: -591102192
-      Alcapiscine_22: -1542446964
-      Alcapiscine_23: -1772692264
+      Alcapiscine_21_SwimDead: -591102192
+      Alcapiscine_22_JumpStart: -1542446964
+      Alcapiscine_23_Jumping: -1772692264
       Alcapiscine_24: 1624943048
-      Alcapiscine_25: 1462704631
+      Alcapiscine_25_Landing: 1462704631
       Alcapiscine_26: -1062669224
-      Alcapiscine_27: 35174406
+      Alcapiscine_27_InteractGun: 35174406
       Alcapiscine_28: -1807399417
       Alcapiscine_29: 1499729850
       Alcapiscine_3: 5110054460483618256
-      Alcapiscine_30: 427219889
+      Alcapiscine_30_Interact: 427219889
       Alcapiscine_31: 109368205
       Alcapiscine_32: -1402354491
-      Alcapiscine_33: 1854846360
+      Alcapiscine_33_Gun: 1854846360
       Alcapiscine_34: -412870729
       Alcapiscine_35: 1453806217
       Alcapiscine_36: -1137088939
       Alcapiscine_37: 740921720
       Alcapiscine_38: 1404282194
-      Alcapiscine_39: 2011564181
-      Alcapiscine_4: 738745124455421681
+      Alcapiscine_39_Bullet: 2011564181
       Alcapiscine_40: -2101516088
+      Alcapiscine_4_Run: 738745124455421681
       Alcapiscine_5: 3918405742979513512
       Alcapiscine_6: 1165654242731835783
       Alcapiscine_7: 7549483392022226347
-      Alcapiscine_8: 3264972574532129282
+      Alcapiscine_8_Attack: 3264972574532129282
       Alcapiscine_9: -3412815482976772410
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

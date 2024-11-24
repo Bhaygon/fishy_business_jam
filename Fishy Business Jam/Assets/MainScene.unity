@@ -1705,7 +1705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.03
-  SpeedY: 0.01
+  SpeedY: 0.014
   MaxY: 0.18
 --- !u!1 &426275058
 GameObject:
@@ -1717,6 +1717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 426275059}
   - component: {fileID: 426275060}
+  - component: {fileID: 426275061}
   m_Layer: 14
   m_Name: PlayerBody
   m_TagString: Untagged
@@ -1771,6 +1772,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!95 &426275061
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426275058}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &485967816
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,7 +2466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.03
-  SpeedY: 0.01
+  SpeedY: 0.012
   MaxY: 0.18
 --- !u!21 &546048405
 Material:
@@ -3160,7 +3183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.02
-  SpeedY: 0.01
+  SpeedY: 0.012
   MaxY: 0.18
 --- !u!1 &702730151
 GameObject:
@@ -3837,7 +3860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.01
-  SpeedY: 0.01
+  SpeedY: 0.011
   MaxY: 0.18
 --- !u!21 &857736382
 Material:
@@ -4478,7 +4501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.01
-  SpeedY: 0.01
+  SpeedY: 0.011
   MaxY: 0.18
 --- !u!1 &924347436
 GameObject:
@@ -5110,7 +5133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.04
-  SpeedY: 0.01
+  SpeedY: 0.014
   MaxY: 0.18
 --- !u!21 &1298926045
 Material:
@@ -5743,7 +5766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.03
-  SpeedY: 0.01
+  SpeedY: 0.012
   MaxY: 0.18
 --- !u!1 &1431246793
 GameObject:
@@ -6039,7 +6062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.01
-  SpeedY: 0.01
+  SpeedY: 0.011
   MaxY: 0.18
 --- !u!1 &1586038675
 GameObject:
@@ -6368,8 +6391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3424455567cdf14da7631c3c6585d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedX: 0.02
-  SpeedY: 0.01
+  SpeedX: 0.022
+  SpeedY: 0.012
   MaxY: 0.18
 --- !u!21 &1634210112
 Material:
@@ -6950,7 +6973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.03
-  SpeedY: 0.01
+  SpeedY: 0.014
   MaxY: 0.18
 --- !u!1 &1787060110
 GameObject:
@@ -7070,7 +7093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.03
-  SpeedY: 0.01
+  SpeedY: 0.014
   MaxY: 0.18
 --- !u!1 &1794159440
 GameObject:
@@ -7801,7 +7824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.01
-  SpeedY: 0.01
+  SpeedY: 0.011
   MaxY: 0.18
 --- !u!1 &1910134327
 GameObject:
@@ -8190,7 +8213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedX: 0.01
-  SpeedY: 0.01
+  SpeedY: 0.011
   MaxY: 0.18
 --- !u!21 &2100423070
 Material:

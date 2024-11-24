@@ -5,11 +5,10 @@ using UnityEngine.Serialization;
 
 public class Player : MonoBehaviour
 {
-    public State Moving;
-
     [Header("References")] public Rigidbody2D Rb;
     [SerializeField] private Transform PlayerTransform;
-    [SerializeField] private Collider2D _feetColl, _bodyColl; // On foot
+    [SerializeField] private Collider2D _feetColl, _bodyColl;
+    [SerializeField] private Animator _animator;
 
     [Header("Walk")] [Range(1f, 100f)] public float MaxWalkSpeed;
     [Range(0.25f, 50f)] public float GroundAcceleration;
@@ -77,9 +76,46 @@ public class Player : MonoBehaviour
     private bool _jumpReleaseDuringBuffer;
     private float _coyoteTimer;
 
+    [Header("Attack")] public PlayerAttack PlayerAttack;
+    private bool _isShooting;
+
     private void Awake()
     {
         _isFacingRight = true;
+    }
+
+    private void Start()
+    {
+    }
+
+    private void Update()
+    {
+        CountTimers();
+        JumpChecks();
+        AttackChecks();
+        AnimationChecks();
+    }
+
+    private void AttackChecks()
+    {
+        if (Input.GetKey(KeyCode.F)) _isShooting = true;
+    }
+
+    private void FixedUpdate()
+    {
+        var rawInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+        CollisionChecks();
+        Jump();
+
+        if (IsGrounded())
+        {
+            Move(GroundAcceleration, GroundDeceleration, rawInput);
+        }
+        else
+        {
+            Move(AirAcceleration, AirDeceleration, rawInput);
+        }
     }
 
     public void Move(float acceleration, float deceleration, Vector2 moveInput)
@@ -176,6 +212,14 @@ public class Player : MonoBehaviour
     {
         CheckIsGrounded();
         CheckBumpedHead();
+    }
+
+    public void AnimationChecks()
+    {
+        _animator.SetFloat("Velocity", Mathf.Abs(Rb.linearVelocity.x));
+        _animator.SetBool("Shooting", _isShooting);
+        _animator.SetBool("Jumping", _isJumping);
+        _animator.SetBool("Falling", _isFalling);
     }
 
     public void JumpChecks()
@@ -422,7 +466,8 @@ public class Player : MonoBehaviour
                 Vector2.up * HeadDetectionRayLength, rayColor);
             Debug.DrawRay(new Vector2(boxCastOrigin.x + boxCastSize.x / 2 * HeadWidth, boxCastOrigin.y),
                 Vector2.up * HeadDetectionRayLength, rayColor);
-            Debug.DrawRay(new Vector2(boxCastOrigin.x - boxCastSize.x / 2 * HeadWidth, boxCastOrigin.y + HeadDetectionRayLength),
+            Debug.DrawRay(
+                new Vector2(boxCastOrigin.x - boxCastSize.x / 2 * HeadWidth, boxCastOrigin.y + HeadDetectionRayLength),
                 Vector2.right * boxCastSize.x * HeadWidth, rayColor);
         }
     }

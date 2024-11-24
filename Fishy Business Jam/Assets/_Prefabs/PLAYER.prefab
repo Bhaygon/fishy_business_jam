@@ -57,7 +57,7 @@ Transform:
   m_GameObject: {fileID: 660215617331325875}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -99,15 +99,15 @@ MonoBehaviour:
   JumpHeightCompensationFactor: 1.054
   TimeTillJumpApex: 0.35
   GravityOnReleaseMultiplier: 2
-  MaxFallSpeed: 14.8
+  MaxFallSpeed: 10
   NumberOfJumpsAllowed: 2
   TimeForUpwardCancel: 0.027
   ApexThreshold: 0.97
   ApexHangTime: 0.075
   JumpBufferTime: 0.125
   JumpCoyoteTime: 0.1
-  ShowWalkJumpArc: 0
-  ShowRunJumpArc: 0
+  ShowWalkJumpArc: 1
+  ShowRunJumpArc: 1
   StopOnCollision: 1
   DrawRight: 1
   ArcResolution: 20

@@ -143,7 +143,9 @@ public class Player : MonoBehaviour
             _moveVelocity = Vector2.Lerp(_moveVelocity, Vector2.zero, deceleration * Time.fixedDeltaTime);
         }
 
-        Rb.linearVelocity = !_playerAttack.IsShooting ? new Vector2(_moveVelocity.x, Rb.linearVelocity.y) : new Vector2(_moveVelocity.x / 3, Rb.linearVelocity.y);
+        Rb.linearVelocity = !_playerAttack.IsShooting
+            ? new Vector2(_moveVelocity.x, Rb.linearVelocity.y)
+            : new Vector2(_moveVelocity.x / 3, Rb.linearVelocity.y);
     }
 
     public void TurnCheck(Vector2 moveInput)
@@ -382,7 +384,9 @@ public class Player : MonoBehaviour
 
         VerticalVelocity = Mathf.Clamp(VerticalVelocity, -MaxFallSpeed, 50f);
 
-        Rb.linearVelocity = !_playerAttack.IsShooting ? new Vector2(Rb.linearVelocity.x, VerticalVelocity) : new Vector2(Rb.linearVelocity.x, VerticalVelocity / 3);
+        Rb.linearVelocity = !_playerAttack.IsShooting
+            ? new Vector2(Rb.linearVelocity.x, VerticalVelocity)
+            : new Vector2(Rb.linearVelocity.x, VerticalVelocity / 3);
     }
 
     private void OnValidate()
@@ -421,6 +425,7 @@ public class Player : MonoBehaviour
         }
     }
 
+#if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         if (DebugShowIsGroundedBox)
@@ -469,5 +474,80 @@ public class Player : MonoBehaviour
                 new Vector2(boxCastOrigin.x - boxCastSize.x / 2 * HeadWidth, boxCastOrigin.y + HeadDetectionRayLength),
                 Vector2.right * boxCastSize.x * HeadWidth, rayColor);
         }
+
+        if (ShowWalkJumpArc)
+        {
+            DarwJumpArc(MaxWalkSpeed, Color.white);
+        }
+
+        if (ShowRunJumpArc)
+        {
+            DarwJumpArc(MaxRunSpeed, Color.red);
+        }
     }
+
+    private void DarwJumpArc(float moveSpeed, Color gizmosColor)
+    {
+        Vector2 startPosition = new Vector2(_feetColl.bounds.center.x, _feetColl.bounds.min.y);
+        Vector2 previousPosition = startPosition;
+        float speed = 0;
+
+        if (DrawRight)
+        {
+            speed = moveSpeed;
+        }
+        else
+        {
+            speed = -moveSpeed;
+        }
+
+        Vector2 velocity = new Vector2(speed, InitialJumpVelocity);
+
+        Gizmos.color = gizmosColor;
+
+        float timeStep = 2 * TimeTillJumpApex / ArcResolution;
+
+        for (int i = 0; i < VisualizationSteps; i++)
+        {
+            float simulationTime = i * timeStep;
+            Vector2 displacement;
+            Vector2 drawPoint;
+
+            if (simulationTime < TimeTillJumpApex)
+            {
+                displacement = velocity * simulationTime +
+                               0.5f * new Vector2(0f, Gravity) * simulationTime * simulationTime;
+            }
+            else if (simulationTime < TimeTillJumpApex + ApexHangTime)
+            {
+                float apexTime = simulationTime - TimeTillJumpApex;
+                displacement = velocity * TimeTillJumpApex + 0.5f * new Vector2(0f, Gravity) * TimeTillJumpApex * TimeTillJumpApex;
+                displacement += new Vector2(speed, 0) * apexTime;
+            }
+            else
+            {
+                float descendTime = simulationTime - (TimeTillJumpApex + ApexHangTime);
+                displacement = velocity * TimeTillJumpApex + 0.5f * new Vector2(0f, Gravity) * TimeTillJumpApex * TimeTillJumpApex;
+                displacement += new Vector2(speed, 0) * ApexHangTime;
+                displacement += new Vector2(speed, 0) * descendTime + 0.5f * new Vector2(0f, Gravity) * descendTime * descendTime;
+            }
+
+            drawPoint = startPosition + displacement;
+
+            if (StopOnCollision)
+            {
+                RaycastHit2D hit = Physics2D.Raycast(previousPosition, drawPoint - previousPosition, Vector2.Distance(previousPosition, drawPoint),
+                    GroundLayer);
+                if (hit.collider != null)
+                {
+                    Gizmos.DrawLine(previousPosition, hit.point);
+                    break;
+                }
+            }
+
+            Gizmos.DrawLine(previousPosition, drawPoint);
+            previousPosition = drawPoint;
+        }
+    }
+#endif
 }

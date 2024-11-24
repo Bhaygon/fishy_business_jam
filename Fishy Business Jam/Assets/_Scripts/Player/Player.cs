@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     [Header("References")] public Rigidbody2D Rb;
     [SerializeField] private Transform PlayerTransform;
@@ -78,27 +78,52 @@ public class Player : MonoBehaviour
 
     [Header("Combat")] [SerializeField] private PlayerAttack _playerAttack;
     private bool _isDead;
+    [SerializeField] private int _playerHealthMax;
+    private int _currentPlayerHealth;
+    [SerializeField] private GameObject _onDeathEffect;
+    
+    
 
     private void Awake()
     {
-        _isFacingRight = true;
+        Init();
     }
 
-    private void Start()
+    private void Init()
     {
+        _isFacingRight = true;
+        _currentPlayerHealth = _playerHealthMax;
+        GameManager.Instance?.UpdateHealthUI(_currentPlayerHealth, _playerHealthMax);
     }
 
     private void Update()
     {
         CountTimers();
         JumpChecks();
-        HealthChecks();
         AnimationChecks();
     }
 
-    private void HealthChecks()
+    public void ReceiveDamage(int amount)
     {
-        _isDead = Input.GetKeyDown(KeyCode.P);
+        print("received damage: " + amount);
+        if (amount < _currentPlayerHealth)
+        {
+            _currentPlayerHealth -= amount;
+            GameManager.Instance.UpdateHealthUI(_currentPlayerHealth, _playerHealthMax);
+        }
+        else
+        {
+            _currentPlayerHealth = 0;
+            GameManager.Instance.UpdateHealthUI(_currentPlayerHealth, _playerHealthMax);
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Instantiate(_onDeathEffect, PlayerTransform.position, PlayerTransform.rotation);
+        GameManager.Instance.ShowDeathScreen();
+        this.gameObject.SetActive(false);
     }
 
     private void FixedUpdate()

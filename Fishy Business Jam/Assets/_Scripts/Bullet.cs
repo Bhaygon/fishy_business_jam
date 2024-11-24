@@ -1,10 +1,12 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Bullet : MonoBehaviour
 {
-    private float lifeTime = 3;
+    [SerializeField] private float _lifeTime = 3;
+    [SerializeField] private int _damage = 1;
     [SerializeField] private float speed = 10;
     [SerializeField] private GameObject particles;
     [SerializeField] private string _ignoreTag;
@@ -14,13 +16,22 @@ public class Bullet : MonoBehaviour
     {
         transform.Translate(Vector3.right * (speed * Time.deltaTime));
         
-        lifeTime -= Time.deltaTime;
-        if (lifeTime <= 0) Impact();
+        _lifeTime -= Time.deltaTime;
+        if (_lifeTime <= 0) Impact();
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (!other.gameObject.CompareTag(_ignoreTag)) Impact();
+        if (!other.gameObject.CompareTag(_ignoreTag))
+        {
+            print("collision with " + other.gameObject.name);
+            IDamageable target = other.gameObject.GetComponent<IDamageable>();
+            if (target != null)
+            {
+                target.ReceiveDamage(_damage);
+            }
+            Impact();
+        }
     }
 
     private void Impact()

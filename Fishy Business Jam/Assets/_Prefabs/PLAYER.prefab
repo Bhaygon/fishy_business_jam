@@ -40,7 +40,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9041522939910594700}
-  - component: {fileID: 8102747572938518322}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -64,55 +63,6 @@ Transform:
   - {fileID: 8222706536398265417}
   m_Father: {fileID: 7585990637820284291}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8102747572938518322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660215617331325875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 263955f6a8e8ecc4aab13f6fd56d81eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Rb: {fileID: 6158612764133145399}
-  PlayerTransform: {fileID: 8222706536398265417}
-  _feetColl: {fileID: 3117252222967612702}
-  _bodyColl: {fileID: 7768627671496582881}
-  _animator: {fileID: 8520264651559922260}
-  MaxWalkSpeed: 10
-  GroundAcceleration: 12.1
-  GroundDeceleration: 8
-  AirAcceleration: 4
-  AirDeceleration: 3.4
-  MaxRunSpeed: 14
-  GroundLayer:
-    serializedVersion: 2
-    m_Bits: 4096
-  GroundDetectionRayLength: 0.1
-  HeadDetectionRayLength: 0.1
-  HeadWidth: 0.9
-  DebugShowIsGroundedBox: 1
-  DebugShowIsHeadBumpBox: 1
-  JumpHeight: 4
-  JumpHeightCompensationFactor: 1.054
-  TimeTillJumpApex: 0.35
-  GravityOnReleaseMultiplier: 2
-  MaxFallSpeed: 10
-  NumberOfJumpsAllowed: 2
-  TimeForUpwardCancel: 0.027
-  ApexThreshold: 0.97
-  ApexHangTime: 0.075
-  JumpBufferTime: 0.125
-  JumpCoyoteTime: 0.1
-  ShowWalkJumpArc: 1
-  ShowRunJumpArc: 1
-  StopOnCollision: 1
-  DrawRight: 1
-  ArcResolution: 20
-  VisualizationSteps: 90
-  _playerAttack: {fileID: 565884317374017798}
 --- !u!1 &1941806652130855939
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +387,7 @@ GameObject:
   - component: {fileID: 6158612764133145399}
   - component: {fileID: 8520264651559922260}
   - component: {fileID: 565884317374017798}
+  - component: {fileID: 5470253163099821568}
   m_Layer: 14
   m_Name: PlayerBody
   m_TagString: Untagged
@@ -528,6 +479,57 @@ MonoBehaviour:
   TimePerShoot: 0.09
   BulletPrefab: {fileID: 848168126254247954, guid: 69a0b8269b8f4244bb6c61fb4d44dc14, type: 3}
   ShootPoint: {fileID: 1183062509417022284}
+--- !u!114 &5470253163099821568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8604724033103343178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263955f6a8e8ecc4aab13f6fd56d81eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rb: {fileID: 6158612764133145399}
+  PlayerTransform: {fileID: 8222706536398265417}
+  _feetColl: {fileID: 3117252222967612702}
+  _bodyColl: {fileID: 7768627671496582881}
+  _animator: {fileID: 8520264651559922260}
+  MaxWalkSpeed: 10
+  GroundAcceleration: 12.1
+  GroundDeceleration: 8
+  AirAcceleration: 4
+  AirDeceleration: 3.4
+  MaxRunSpeed: 14
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 4096
+  GroundDetectionRayLength: 0.1
+  HeadDetectionRayLength: 0.1
+  HeadWidth: 0.9
+  DebugShowIsGroundedBox: 1
+  DebugShowIsHeadBumpBox: 1
+  JumpHeight: 4
+  JumpHeightCompensationFactor: 1.054
+  TimeTillJumpApex: 0.35
+  GravityOnReleaseMultiplier: 2
+  MaxFallSpeed: 10
+  NumberOfJumpsAllowed: 2
+  TimeForUpwardCancel: 0.027
+  ApexThreshold: 0.97
+  ApexHangTime: 0.075
+  JumpBufferTime: 0.125
+  JumpCoyoteTime: 0.1
+  ShowWalkJumpArc: 1
+  ShowRunJumpArc: 1
+  StopOnCollision: 1
+  DrawRight: 1
+  ArcResolution: 20
+  VisualizationSteps: 90
+  _playerAttack: {fileID: 565884317374017798}
+  _playerHealthMax: 3
+  _onDeathEffect: {fileID: 6089995940071600226, guid: 437957656dbcbda438a7be1d7bcc5755, type: 3}
 --- !u!1 &9083899468441881801
 GameObject:
   m_ObjectHideFlags: 0

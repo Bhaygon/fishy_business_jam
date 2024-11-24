@@ -76,8 +76,8 @@ public class Player : MonoBehaviour
     private bool _jumpReleaseDuringBuffer;
     private float _coyoteTimer;
 
-    [Header("Attack")] public PlayerAttack PlayerAttack;
-    private bool _isShooting;
+    [Header("Combat")] [SerializeField] private PlayerAttack _playerAttack;
+    private bool _isDead;
 
     private void Awake()
     {
@@ -92,13 +92,13 @@ public class Player : MonoBehaviour
     {
         CountTimers();
         JumpChecks();
-        AttackChecks();
+        HealthChecks();
         AnimationChecks();
     }
 
-    private void AttackChecks()
+    private void HealthChecks()
     {
-        if (Input.GetKey(KeyCode.F)) _isShooting = true;
+        _isDead = Input.GetKeyDown(KeyCode.P);
     }
 
     private void FixedUpdate()
@@ -143,7 +143,7 @@ public class Player : MonoBehaviour
             _moveVelocity = Vector2.Lerp(_moveVelocity, Vector2.zero, deceleration * Time.fixedDeltaTime);
         }
 
-        Rb.linearVelocity = new Vector2(_moveVelocity.x, Rb.linearVelocity.y);
+        Rb.linearVelocity = !_playerAttack.IsShooting ? new Vector2(_moveVelocity.x, Rb.linearVelocity.y) : new Vector2(_moveVelocity.x / 3, Rb.linearVelocity.y);
     }
 
     public void TurnCheck(Vector2 moveInput)
@@ -217,14 +217,13 @@ public class Player : MonoBehaviour
     public void AnimationChecks()
     {
         _animator.SetFloat("Velocity", Mathf.Abs(Rb.linearVelocity.x));
-        _animator.SetBool("Shooting", _isShooting);
         _animator.SetBool("Jumping", _isJumping);
         _animator.SetBool("Falling", _isFalling);
     }
 
     public void JumpChecks()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && !_playerAttack.IsShooting)
         {
             _jumpBufferTimer = JumpBufferTime;
             _jumpReleaseDuringBuffer = false;
@@ -383,7 +382,7 @@ public class Player : MonoBehaviour
 
         VerticalVelocity = Mathf.Clamp(VerticalVelocity, -MaxFallSpeed, 50f);
 
-        Rb.linearVelocity = new Vector2(Rb.linearVelocity.x, VerticalVelocity);
+        Rb.linearVelocity = !_playerAttack.IsShooting ? new Vector2(Rb.linearVelocity.x, VerticalVelocity) : new Vector2(Rb.linearVelocity.x, VerticalVelocity / 3);
     }
 
     private void OnValidate()

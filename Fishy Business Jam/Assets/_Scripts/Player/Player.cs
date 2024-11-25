@@ -37,6 +37,7 @@ public class Player : MonoBehaviour, IDamageable
     [Range(0.01f, 5f)] public float GravityOnReleaseMultiplier = 2f;
     public float MaxFallSpeed = 26f;
     [Range(1, 5)] public int NumberOfJumpsAllowed = 2;
+    public GameObject JumpParticlesPrefab;
 
     [Header("Jump cut")] [Range(0.02f, 0.3f)]
     public float TimeForUpwardCancel = 0.027f;
@@ -106,7 +107,7 @@ public class Player : MonoBehaviour, IDamageable
 
     public void ReceiveDamage(int amount)
     {
-        print("received damage: " + amount);
+        //print("received damage: " + amount);
         if (amount < _currentPlayerHealth)
         {
             _currentPlayerHealth -= amount;
@@ -317,6 +318,7 @@ public class Player : MonoBehaviour, IDamageable
 
     private void InitiateJump(int numberOfJumpsUsed)
     {
+        Instantiate(JumpParticlesPrefab, _feetColl.bounds.center, Quaternion.identity);
         if (!_isJumping)
         {
             _isJumping = true;

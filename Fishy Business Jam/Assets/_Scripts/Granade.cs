@@ -8,6 +8,7 @@ public class Granade : MonoBehaviour
     [SerializeField] private float speed = 10;
     [SerializeField] private GameObject particles;
     [SerializeField] private LayerMask DamageLayer;
+    public AudioClip GrenadeExplosion;
 
     private void Start()
     {
@@ -31,7 +32,7 @@ public class Granade : MonoBehaviour
                 target.ReceiveDamage(_damage);
             }
         }
-        
+        GameManager.Instance.PlaySFX(GrenadeExplosion);
         Instantiate(particles, transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }

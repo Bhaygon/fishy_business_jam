@@ -31,7 +31,7 @@ public class PistolShrimp : MonoBehaviour, IDamageable
     [Header("Health")] [SerializeField] private float _health = 3;
     [SerializeField] private GameObject _onDeathEffect;
     [SerializeField] private GameObject Master;
-    [SerializeField] private AudioClip _shootSFX;
+    [SerializeField] private AudioClip _shootSFX, _deathSFX;
 
     private void Start()
     {
@@ -45,6 +45,7 @@ public class PistolShrimp : MonoBehaviour, IDamageable
         {
             Instantiate(_onDeathEffect, BodyTransform.position, BodyTransform.rotation);
             GameManager.Instance.AddScore(_scoreGiven);
+            GameManager.Instance.PlaySFX(_deathSFX);
             Master.SetActive(false);
         }
     }

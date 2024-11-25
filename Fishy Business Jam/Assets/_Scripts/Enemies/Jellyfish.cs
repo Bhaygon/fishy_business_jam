@@ -19,6 +19,7 @@ public class Jellyfish : MonoBehaviour, IDamageable
     [SerializeField] private List<Transform> points;
     [Header("Health")] [SerializeField] private float _health = 3;
     [SerializeField] private GameObject _onDeathEffect;
+    public AudioClip deathSFX, shockSFX;
 
     private void Start()
     {
@@ -31,6 +32,7 @@ public class Jellyfish : MonoBehaviour, IDamageable
         if (_health <= 0)
         {
             Instantiate(_onDeathEffect, transform.position, transform.rotation);
+            GameManager.Instance.PlaySFX(deathSFX);
             GameManager.Instance.AddScore(_scoreGiven);
             Master.SetActive(false);
         }
@@ -62,6 +64,7 @@ public class Jellyfish : MonoBehaviour, IDamageable
             if (boxHit.collider)
             {
                 boxHit.collider.GetComponentInParent<IDamageable>().ReceiveDamage(damage);
+                GameManager.Instance.PlaySFX(shockSFX);
                 animator.Play("Shock");
                 particles.Play();
                 _timer = cooldown;

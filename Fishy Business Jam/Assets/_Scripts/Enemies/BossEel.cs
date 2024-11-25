@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
@@ -49,6 +50,14 @@ public class BossEel : MonoBehaviour, IDamageable
 
     private float _turnCooldown = 1f;
     private float _turnCooldownTimer;
+
+    public AudioClip car, death, laugh, laugh2, grenadeThrow;
+    private GameManager _manager;
+
+    private void Start()
+    {
+        _manager = GameManager.Instance;
+    }
 
     private void FixedUpdate()
     {
@@ -106,6 +115,8 @@ public class BossEel : MonoBehaviour, IDamageable
 
     private IEnumerator UseGranade()
     {
+        _manager.PlaySFX(grenadeThrow);
+        _manager.PlaySFX(laugh2);
         Animator.SetBool("Grenade", true);
         Rb.linearVelocity = Vector2.zero;
         yield return new WaitForSeconds(1);
@@ -140,6 +151,8 @@ public class BossEel : MonoBehaviour, IDamageable
 
     private void StartAttacking()
     {
+        _manager.PlaySFX(laugh);
+        _manager.PlaySFX(car);
         _isAttacking = true;
         _initializeAttackTimer = _initializeAttackTimeMax;
         _attackDurationTimer = 3;
@@ -211,8 +224,9 @@ public class BossEel : MonoBehaviour, IDamageable
         {
             Instantiate(_onDeathEffect, BodyTransform.position, BodyTransform.rotation);
             Instantiate(_onDeathEffect2, BodyTransform.position, BodyTransform.rotation);
-            GameManager.Instance.BossKilled();
-            GameManager.Instance.AddScore(100);
+            _manager.PlaySFX(death);
+            _manager.BossKilled();
+            _manager.AddScore(100);
             Master.SetActive(false);
         }
     }

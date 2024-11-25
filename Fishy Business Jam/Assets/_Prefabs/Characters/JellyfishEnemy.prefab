@@ -5590,6 +5590,8 @@ MonoBehaviour:
   - {fileID: 4036300335009672178}
   _health: 3
   _onDeathEffect: {fileID: 4750303393240536109, guid: 6056268828094374ca2976ed2aa55554, type: 3}
+  deathSFX: {fileID: 8300000, guid: 2e2076cb1672a0843abef8bf0626768f, type: 3}
+  shockSFX: {fileID: 8300000, guid: d954ae1825751cb48bdda56a0c5fcc0f, type: 3}
 --- !u!95 &8001273605599025841
 Animator:
   serializedVersion: 7

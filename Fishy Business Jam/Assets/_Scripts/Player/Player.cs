@@ -84,7 +84,7 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] private GameObject _onDeathEffect;
     [SerializeField] private float _recoilForce;
     private GameManager _manager;
-    [SerializeField] private AudioClip _jumpSFX;
+    [SerializeField] private AudioClip _jumpSFX, _damageTakenSFX;
 
 
     private void Awake()
@@ -115,6 +115,7 @@ public class Player : MonoBehaviour, IDamageable
     public void ReceiveDamage(int amount)
     {
         print("received damage: " + amount);
+        _manager.PlaySFX(_damageTakenSFX);
         if (amount < _currentPlayerHealth)
         {
             _currentPlayerHealth -= amount;

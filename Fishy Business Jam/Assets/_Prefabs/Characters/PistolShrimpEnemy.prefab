@@ -327,6 +327,7 @@ MonoBehaviour:
   _onDeathEffect: {fileID: 9053456989746091088, guid: ad38309105fe76c44bdc0faa5264482f, type: 3}
   Master: {fileID: 2782333037449226104}
   _shootSFX: {fileID: 8300000, guid: 4da0a0d3cd7c16841bed960e4717b854, type: 3}
+  _deathSFX: {fileID: 8300000, guid: 1f00b05e31255fa46b0b9fa0966a8ec9, type: 3}
 --- !u!95 &4484959531191921837
 Animator:
   serializedVersion: 7

@@ -205,6 +205,7 @@ MonoBehaviour:
   DamageLayer:
     serializedVersion: 2
     m_Bits: 16384
+  GrenadeExplosion: {fileID: 8300000, guid: b36cf9a8bb8cca74e8aba59fd5943ff1, type: 3}
 --- !u!212 &7550791627064770577
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -1,11 +1,13 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Oyster : MonoBehaviour
 {
     public LayerMask PlayerLayer;
     private Animator _animator;
     private bool _collected = false;
+    public AudioClip pearlSFX;
 
     private void Start()
     {
@@ -22,7 +24,7 @@ public class Oyster : MonoBehaviour
             _collected = true;
             GameManager.Instance.AddPearl();
             _animator.SetBool("Collected", true);
-            
+            GameManager.Instance.PlaySFX(pearlSFX);
             Player target = boxHit.collider.GetComponentInParent<Player>();
             if (target)
             {

@@ -147,6 +147,7 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 16384
+  pearlSFX: {fileID: 8300000, guid: cf3016e4a1a49574ea69ee9005d1dd03, type: 3}
 --- !u!1 &2799706382295960584
 GameObject:
   m_ObjectHideFlags: 0

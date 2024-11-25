@@ -769,6 +769,7 @@ MonoBehaviour:
   _onDeathEffect: {fileID: 7900810083854648909, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
   _recoilForce: 0.05
   _jumpSFX: {fileID: 8300000, guid: 664cf36f2ba61c5459b1ebf4cafa2052, type: 3}
+  _damageTakenSFX: {fileID: 8300000, guid: f50b2c4d48f73514b807f0e5d2dee2c0, type: 3}
 --- !u!1 &9083899468441881801
 GameObject:
   m_ObjectHideFlags: 0

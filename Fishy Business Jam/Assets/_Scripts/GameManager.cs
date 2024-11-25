@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -14,6 +15,9 @@ public class GameManager : MonoBehaviour
     public Button RestartButton;
     public Button WinButton;
     public Transform HealthHolder;
+    public TMP_Text PearlAmountText;
+    private int _pearlAmount;
+    private bool _ended = false;
 
     private void Awake()
     {
@@ -52,8 +56,17 @@ public class GameManager : MonoBehaviour
         StartGameplay();
     }
 
+    public void AddPearl()
+    {
+        _pearlAmount++;
+        PearlAmountText.text = _pearlAmount.ToString();
+    }
+
     private void StartGameplay()
     {
+        _ended = false;
+        _pearlAmount = 0;
+        PearlAmountText.text = _pearlAmount.ToString();
         DeathCanvas.SetActive(false);
         WinCanvas.SetActive(false);
         GetComponent<SoundManager>().StartGameAudio();
@@ -61,6 +74,8 @@ public class GameManager : MonoBehaviour
 
     public void ShowDeathScreen()
     {
+        if (_ended) return;
+        _ended = true;
         DeathCanvas.SetActive(true);
         GetComponent<SoundManager>().GameOverSound();
     }
@@ -83,6 +98,8 @@ public class GameManager : MonoBehaviour
 
     public void BossKilled()
     {
+        if (_ended) return;
+        _ended = true;
         StartCoroutine(OnWin());
         
     }

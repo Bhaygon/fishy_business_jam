@@ -103,7 +103,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -179,15 +179,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Misc_0
+      name: Misc_0_PearlArrow
       rect:
         serializedVersion: 2
-        x: 3
-        y: 103
-        width: 9
-        height: 8
+        x: 0
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: Misc_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 95
-        width: 9
-        height: 15
+        x: 16
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: Misc_2
       rect:
         serializedVersion: 2
-        x: 35
-        y: 103
-        width: 9
-        height: 8
+        x: 32
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: Misc_3
       rect:
         serializedVersion: 2
-        x: 51
-        y: 104
-        width: 9
-        height: 8
+        x: 48
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: Misc_4
       rect:
         serializedVersion: 2
-        x: 67
-        y: 105
-        width: 9
-        height: 7
+        x: 64
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: Misc_5
       rect:
         serializedVersion: 2
-        x: 83
-        y: 104
-        width: 9
-        height: 8
+        x: 80
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,15 +311,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Misc_6
+      name: Misc_6_Pearl
       rect:
         serializedVersion: 2
-        x: 3
-        y: 95
-        width: 9
-        height: 9
+        x: 0
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: Misc_7
       rect:
         serializedVersion: 2
-        x: 35
-        y: 95
-        width: 9
-        height: 9
+        x: 16
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: Misc_8
       rect:
         serializedVersion: 2
-        x: 51
-        y: 95
-        width: 9
-        height: 9
+        x: 32
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: Misc_9
       rect:
         serializedVersion: 2
-        x: 67
-        y: 95
-        width: 9
-        height: 9
+        x: 48
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: Misc_10
       rect:
         serializedVersion: 2
-        x: 83
-        y: 95
-        width: 9
-        height: 9
+        x: 64
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: Misc_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 15
-        width: 32
-        height: 66
+        x: 80
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -443,15 +443,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Misc_12
+      name: Misc_12_OysterPearl
       rect:
         serializedVersion: 2
-        x: 3
-        y: 79
-        width: 9
-        height: 9
+        x: 0
+        y: 48
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -465,81 +465,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Misc_13
+      name: Misc_16_OysterClosing
       rect:
         serializedVersion: 2
-        x: 19
-        y: 79
-        width: 9
-        height: 9
+        x: 0
+        y: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: caa891b91d0588b90800000000000000
-      internalID: -7239447539817542996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Misc_14
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 79
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 367e63a92444009b0800000000000000
-      internalID: -5116014123847063709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Misc_15
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 79
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02c7de0a235c2dd20800000000000000
-      internalID: 3301918298054949920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Misc_16
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 79
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -553,37 +487,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Misc_17
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 79
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 405cf09029072df20800000000000000
-      internalID: 3445940437411415300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Misc_18
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 33
-        height: 47
+        x: 32
+        y: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -597,37 +509,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Misc_19
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 15
-        width: 33
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a1fa81d439925340800000000000000
-      internalID: 4851108200764338592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Misc_20
       rect:
         serializedVersion: 2
-        x: 95
-        y: 15
-        width: 33
-        height: 23
+        x: 64
+        y: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -641,37 +531,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Misc_21
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 23
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 861b6bf8dbedea900800000000000000
-      internalID: 697739898030305640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Misc_22
       rect:
         serializedVersion: 2
-        x: 25
-        y: 0
-        width: 11
-        height: 10
+        x: 96
+        y: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -684,11 +552,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Misc_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e88d2521c5bf55428d91dbefccab37c
+      internalID: 1008638675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Misc_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1f4554e1525734c9cce46785b6e831
+      internalID: 39622542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Misc_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68023ed05afe37c4db89a08882384f5c
+      internalID: -575137022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aa42507cb7deb374cbc56468ed582472
     internalID: 0
     vertices: []
     indices: 
@@ -697,7 +631,42 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Misc_0_PearlArrow: 2160946167482080428
+      Misc_1: 4925447068233826214
+      Misc_10: 8516481782068710382
+      Misc_11: -6586461801356579524
+      Misc_12_OysterPearl: 5289198925151454286
+      Misc_13: -7239447539817542996
+      Misc_14: -5116014123847063709
+      Misc_15: 3301918298054949920
+      Misc_16_OysterClosing: -3467438497630497274
+      Misc_17: 3445940437411415300
+      Misc_18: 6014606863000604231
+      Misc_19: 4851108200764338592
+      Misc_2: 5107282872573515666
+      Misc_20: -5570734140441774786
+      Misc_21: 697739898030305640
+      Misc_22: -5989860348782526002
+      Misc_23: -655834789
+      Misc_24: 1878990697
+      Misc_25: 1447387280
+      Misc_26: -1752333234
+      Misc_27: -774278139
+      Misc_28: 1742910311
+      Misc_29: -1864296024
+      Misc_3: 522795827424058390
+      Misc_30: 1921959405
+      Misc_31: -288157445
+      Misc_32: 1008638675
+      Misc_33: 39622542
+      Misc_34: -575137022
+      Misc_4: -6064967667912391024
+      Misc_5: 4451419428445612202
+      Misc_6_Pearl: 8535591192466661450
+      Misc_7: 7553105169116273729
+      Misc_8: -878841589827238879
+      Misc_9: -1833925677632832470
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

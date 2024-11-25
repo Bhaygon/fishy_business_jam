@@ -81,8 +81,9 @@ public class PistolShrimp : MonoBehaviour, IDamageable
     private IEnumerator Attack()
     {
         yield return new WaitForSeconds(_attackStart);
-        Instantiate(_projectile, BodyTransform.position, BodyTransform.rotation * Quaternion.Euler(Vector3.forward * -180f));
-        yield return new WaitForSeconds(0.5f);
+        Instantiate(_projectile, new Vector2(BodyTransform.position.x, BodyTransform.position.y - 0.2f), BodyTransform.rotation);
+        yield return new WaitForSeconds(1.2f - _attackStart);
+        Animator.SetBool("Attack", false);
         Turn(!_isFacingRight);
         _attackCooldownTimer = _attackCooldown;
         _isAttacking = false;
@@ -132,12 +133,12 @@ public class PistolShrimp : MonoBehaviour, IDamageable
         if (turnRight)
         {
             _isFacingRight = true;
-            BodyTransform.Rotate(0f, 180f, 0f);
+            BodyTransform.Rotate(0f, -180f, 0f);
         }
         else
         {
             _isFacingRight = false;
-            BodyTransform.Rotate(0f, -180f, 0f);
+            BodyTransform.Rotate(0f, 180f, 0f);
         }
     }
 

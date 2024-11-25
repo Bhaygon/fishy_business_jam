@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
             Instance = this;
             Object.DontDestroyOnLoad(gameObject);
             SceneManager.LoadSceneAsync(1);
+            GetComponent<SoundManager>().StartGameAudio();
         }
         
         DeathCanvas.SetActive(false);
@@ -43,11 +44,13 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         DeathCanvas.SetActive(false);
+        GetComponent<SoundManager>().StartGameAudio();
     }
 
     public void ShowDeathScreen()
     {
         DeathCanvas.SetActive(true);
+        GetComponent<SoundManager>().GameOverSound();
     }
 
     public void UpdateHealthUI(int currentPlayerHealth, int maxHealth)

@@ -214,7 +214,7 @@ public class Player : MonoBehaviour, IDamageable
     private void CheckIsGrounded()
     {
         Vector2 boxCastOrigin = new Vector2(_feetColl.bounds.center.x, _feetColl.bounds.min.y);
-        Vector2 boxCastSize = new Vector2(_bodyColl.bounds.size.x, GroundDetectionRayLength);
+        Vector2 boxCastSize = new Vector2(_feetColl.bounds.size.x, GroundDetectionRayLength); //TODO FIX WALL GROUND DETECT
 
         _groundHit = Physics2D.BoxCast(boxCastOrigin, boxCastSize, 0f, Vector2.down, GroundDetectionRayLength,
             GroundLayer);
@@ -482,7 +482,7 @@ public class Player : MonoBehaviour, IDamageable
         if (DebugShowIsGroundedBox)
         {
             Vector2 boxCastOrigin = new Vector2(_feetColl.bounds.center.x, _feetColl.bounds.min.y);
-            Vector2 boxCastSize = new Vector2(_bodyColl.bounds.size.x, GroundDetectionRayLength);
+            Vector2 boxCastSize = new Vector2(_feetColl.bounds.size.x, GroundDetectionRayLength);
 
             Color rayColor;
             if (_isGrounded)

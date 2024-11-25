@@ -51,7 +51,7 @@ public class BossEel : MonoBehaviour, IDamageable
     private float _turnCooldown = 1f;
     private float _turnCooldownTimer;
 
-    public AudioClip car, death, laugh, laugh2, grenadeThrow;
+    public AudioClip car, death, laugh, laugh2, grenadeThrow, fire;
     private GameManager _manager;
 
     private void Start()
@@ -225,6 +225,7 @@ public class BossEel : MonoBehaviour, IDamageable
             Instantiate(_onDeathEffect, BodyTransform.position, BodyTransform.rotation);
             Instantiate(_onDeathEffect2, BodyTransform.position, BodyTransform.rotation);
             _manager.PlaySFX(death);
+            _manager.PlaySFX(fire);
             _manager.BossKilled();
             _manager.AddScore(100);
             Master.SetActive(false);

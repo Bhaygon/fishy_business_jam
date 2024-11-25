@@ -833,6 +833,7 @@ MonoBehaviour:
   laugh: {fileID: 8300000, guid: a45c110a49de88044b2a7c0c8aec6825, type: 3}
   laugh2: {fileID: 8300000, guid: 86cba8831de7da44c9645310daf5ee62, type: 3}
   grenadeThrow: {fileID: 8300000, guid: 9921072c4b7277249ba8a958f1a17bf8, type: 3}
+  fire: {fileID: 8300000, guid: f6d75d04c2712314f9a128f889797be5, type: 3}
 --- !u!50 &7635517283122808608
 Rigidbody2D:
   serializedVersion: 5

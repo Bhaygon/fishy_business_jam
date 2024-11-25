@@ -528,7 +528,7 @@ MonoBehaviour:
   ArcResolution: 20
   VisualizationSteps: 90
   _playerAttack: {fileID: 565884317374017798}
-  _playerHealthMax: 3
+  _playerHealthMax: 10
   _onDeathEffect: {fileID: 6089995940071600226, guid: 21ba9f031c61fc442b6eff3506a89689, type: 3}
 --- !u!1 &9083899468441881801
 GameObject:

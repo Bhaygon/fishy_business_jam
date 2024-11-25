@@ -5173,7 +5173,7 @@ MonoBehaviour:
   particles: {fileID: 5681871531210166870}
   rb: {fileID: 4551008932808302085}
   cooldown: 2
-  damage: 0
+  damage: 1
   speed: 1
   playerLayer:
     serializedVersion: 2
@@ -5183,6 +5183,8 @@ MonoBehaviour:
   - {fileID: 1889862147626407851}
   - {fileID: 1572323107347438500}
   - {fileID: 7804556868281887517}
+  _health: 3
+  _onDeathEffect: {fileID: 6089995940071600226, guid: 21ba9f031c61fc442b6eff3506a89689, type: 3}
 --- !u!95 &8001273605599025841
 Animator:
   serializedVersion: 7

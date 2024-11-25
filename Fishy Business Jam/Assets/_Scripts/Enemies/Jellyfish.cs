@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jellyfish : MonoBehaviour
+public class Jellyfish : MonoBehaviour, IDamageable
 {
     [SerializeField] private Animator animator;
     [SerializeField] private ParticleSystem particles;
@@ -15,10 +15,22 @@ public class Jellyfish : MonoBehaviour
     private int _point = 0;
     private int _direction = 1;
     [SerializeField] private List<Transform> points;
+    [Header("Health")] [SerializeField] private float _health = 3;
+    [SerializeField] private GameObject _onDeathEffect;
 
     private void Start()
     {
         _timer = 0;
+    }
+
+    public void ReceiveDamage(int damage)
+    {
+        _health -= damage;
+        if (_health <= 0)
+        {
+            Instantiate(_onDeathEffect, transform.position, transform.rotation);
+            this.gameObject.SetActive(false);
+        }
     }
 
     private void Update()

@@ -330,6 +330,18 @@ public class Player : MonoBehaviour, IDamageable
         VerticalVelocity = InitialJumpVelocity;
     }
 
+    public void PushPlayer(float force)
+    {
+        if (!_isJumping)
+        {
+            _isJumping = true;
+        }
+
+        _jumpBufferTimer = 0f;
+        _numberOfJumpsUsed += 1;
+        VerticalVelocity = force;
+    }
+
     public void Jump()
     {
         if (_isJumping)

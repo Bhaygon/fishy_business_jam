@@ -83,12 +83,18 @@ public class Player : MonoBehaviour, IDamageable
     private int _currentPlayerHealth;
     [SerializeField] private GameObject _onDeathEffect;
     [SerializeField] private float _recoilForce;
-    
-    
+    private GameManager _manager;
+    [SerializeField] private AudioClip _jumpSFX;
+
 
     private void Awake()
     {
         Init();
+    }
+
+    private void Start()
+    {
+        _manager = GameManager.Instance;
     }
 
     private void Init()
@@ -108,16 +114,17 @@ public class Player : MonoBehaviour, IDamageable
 
     public void ReceiveDamage(int amount)
     {
-        //print("received damage: " + amount);
+        print("received damage: " + amount);
         if (amount < _currentPlayerHealth)
         {
             _currentPlayerHealth -= amount;
-            GameManager.Instance.UpdateHealthUI(_currentPlayerHealth, _playerHealthMax);
+            if (_currentPlayerHealth > _playerHealthMax) _currentPlayerHealth = _playerHealthMax;
+            _manager.UpdateHealthUI(_currentPlayerHealth, _playerHealthMax);
         }
         else
         {
             _currentPlayerHealth = 0;
-            GameManager.Instance.UpdateHealthUI(_currentPlayerHealth, _playerHealthMax);
+            _manager.UpdateHealthUI(_currentPlayerHealth, _playerHealthMax);
             Die();
         }
         GameManager.Instance.AddScore(-10);
@@ -126,7 +133,7 @@ public class Player : MonoBehaviour, IDamageable
     private void Die()
     {
         Instantiate(_onDeathEffect, PlayerTransform.position, PlayerTransform.rotation);
-        GameManager.Instance.ShowDeathScreen();
+        _manager.ShowDeathScreen();
         this.gameObject.SetActive(false);
     }
 
@@ -321,6 +328,7 @@ public class Player : MonoBehaviour, IDamageable
     private void InitiateJump(int numberOfJumpsUsed)
     {
         Instantiate(JumpParticlesPrefab, _feetColl.bounds.center, Quaternion.identity);
+        _manager.PlaySFX(_jumpSFX);
         if (!_isJumping)
         {
             _isJumping = true;

@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     private int _score;
     public TMP_Text ScoretText;
     private Coroutine _timerCo;
+    private SoundManager _soundManager;
+
 
     private void Awake()
     {
@@ -37,8 +39,21 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadSceneAsync(1);
             GetComponent<SoundManager>().StartGameAudio();
         }
+
+        _soundManager = GetComponent<SoundManager>();
         
         StartGameplay();
+    }
+
+    public void PlaySFX(AudioClip clip)
+    {
+        _soundManager.sfxSource.PlayOneShot(clip);
+    }
+
+    public void PlayMusic(AudioClip clip)
+    {
+        _soundManager.musicSource.clip = clip;
+        _soundManager.musicSource.Play();
     }
 
     private IEnumerator TimeScore()
@@ -95,7 +110,7 @@ public class GameManager : MonoBehaviour
         PearlAmountText.text = _pearlAmount.ToString();
         DeathCanvas.SetActive(false);
         WinCanvas.SetActive(false);
-        GetComponent<SoundManager>().StartGameAudio();
+        _soundManager.StartGameAudio();
     }
 
     public void ShowDeathScreen()
@@ -103,7 +118,7 @@ public class GameManager : MonoBehaviour
         if (_ended) return;
         _ended = true;
         DeathCanvas.SetActive(true);
-        GetComponent<SoundManager>().GameOverSound();
+        _soundManager.GameOverSound();
     }
 
     public void UpdateHealthUI(int currentPlayerHealth, int maxHealth)
@@ -133,7 +148,8 @@ public class GameManager : MonoBehaviour
     public IEnumerator OnWin()
     {
         yield return new WaitForSeconds(0.5f);
-        ScoretText.text = "Your score is: " + _score + " points \nCollect pearls, kill enemies and do everything faster to increase your score";
+        GameObject.Find("PLAYER").SetActive(false);
+        ScoretText.text = "Your final score is " + _score + " points \nCollect pearls, kill enemies and do everything faster to increase your score!";
         WinCanvas.SetActive(true);
     }
 }

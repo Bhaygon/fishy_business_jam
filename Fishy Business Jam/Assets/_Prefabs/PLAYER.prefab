@@ -714,6 +714,7 @@ MonoBehaviour:
   TimePerShoot: 0.09
   BulletPrefab: {fileID: 848168126254247954, guid: 69a0b8269b8f4244bb6c61fb4d44dc14, type: 3}
   ShootPoint: {fileID: 1183062509417022284}
+  _shootSFX: {fileID: 8300000, guid: 5276d2234aa667e43bfe7ae0f6666c8b, type: 3}
 --- !u!114 &5470253163099821568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -767,6 +768,7 @@ MonoBehaviour:
   _playerHealthMax: 10
   _onDeathEffect: {fileID: 7900810083854648909, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
   _recoilForce: 0.05
+  _jumpSFX: {fileID: 8300000, guid: 664cf36f2ba61c5459b1ebf4cafa2052, type: 3}
 --- !u!1 &9083899468441881801
 GameObject:
   m_ObjectHideFlags: 0

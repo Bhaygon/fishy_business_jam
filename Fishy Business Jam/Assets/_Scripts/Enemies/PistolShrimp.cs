@@ -31,6 +31,7 @@ public class PistolShrimp : MonoBehaviour, IDamageable
     [Header("Health")] [SerializeField] private float _health = 3;
     [SerializeField] private GameObject _onDeathEffect;
     [SerializeField] private GameObject Master;
+    [SerializeField] private AudioClip _shootSFX;
 
     private void Start()
     {
@@ -84,6 +85,7 @@ public class PistolShrimp : MonoBehaviour, IDamageable
     private IEnumerator Attack()
     {
         yield return new WaitForSeconds(_attackStart);
+        GameManager.Instance.PlaySFX(_shootSFX);
         Instantiate(_projectile, new Vector2(BodyTransform.position.x, BodyTransform.position.y - 0.2f), BodyTransform.rotation);
         yield return new WaitForSeconds(1.2f - _attackStart);
         Animator.SetBool("Attack", false);

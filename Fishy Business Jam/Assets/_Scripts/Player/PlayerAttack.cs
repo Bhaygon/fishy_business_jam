@@ -11,11 +11,14 @@ public class PlayerAttack : MonoBehaviour
 
     private Player _player;
     private Animator _animator;
+    private GameManager _manager;
+    [SerializeField] private AudioClip _shootSFX;
 
     private void Start()
     {
         _player = GetComponentInParent<Player>();
         _animator = GetComponent<Animator>();
+        _manager = GameManager.Instance;
         _shootTimer = 0;
     }
 
@@ -35,6 +38,7 @@ public class PlayerAttack : MonoBehaviour
     public void ShootBullet()
     {
         Instantiate(BulletPrefab, ShootPoint.position, transform.rotation);
+        _manager.PlaySFX(_shootSFX);
         _player.Recoil();
     }
 }

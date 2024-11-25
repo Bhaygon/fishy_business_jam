@@ -26,6 +26,7 @@ public class PistolShrimp : MonoBehaviour, IDamageable
     [SerializeField] float _attackStart;
     [SerializeField] float _attackCooldown;
     private float _attackCooldownTimer;
+    [SerializeField] private int _scoreGiven = 10;
     [SerializeField] private GameObject _projectile;
     [Header("Health")] [SerializeField] private float _health = 3;
     [SerializeField] private GameObject _onDeathEffect;
@@ -42,7 +43,7 @@ public class PistolShrimp : MonoBehaviour, IDamageable
         if (_health <= 0)
         {
             Instantiate(_onDeathEffect, BodyTransform.position, BodyTransform.rotation);
-            GameManager.Instance.AddScore(10);
+            GameManager.Instance.AddScore(_scoreGiven);
             Master.SetActive(false);
         }
     }

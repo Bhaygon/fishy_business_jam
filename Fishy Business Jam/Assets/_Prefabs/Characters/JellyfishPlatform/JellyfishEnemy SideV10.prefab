@@ -77,6 +77,10 @@ PrefabInstance:
       value: JellyfishEnemy SideV10
       objectReference: {fileID: 0}
     - target: {fileID: 6338814257230630134, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: _scoreGiven
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338814257230630134, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: points.Array.size
       value: 2
       objectReference: {fileID: 0}

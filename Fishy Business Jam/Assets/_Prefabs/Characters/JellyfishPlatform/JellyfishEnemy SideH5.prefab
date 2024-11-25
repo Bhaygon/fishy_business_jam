@@ -74,7 +74,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4076562700019493177, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_Name
-      value: JellyfishEnemy Variant
+      value: JellyfishEnemy SideH5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338814257230630134, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: _scoreGiven
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6338814257230630134, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: points.Array.size

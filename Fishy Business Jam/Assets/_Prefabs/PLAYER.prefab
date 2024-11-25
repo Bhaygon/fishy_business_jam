@@ -73,9 +73,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4374234332563864170}
   - component: {fileID: 3117252222967612702}
-  m_Layer: 14
+  m_Layer: 15
   m_Name: ColliderFeet
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

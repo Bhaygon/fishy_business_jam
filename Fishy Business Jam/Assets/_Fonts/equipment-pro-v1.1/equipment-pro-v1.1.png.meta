@@ -1,0 +1,3930 @@
+fileFormatVersion: 2
+guid: 392b61ebf5c453442b79612c682087a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2855627620736611503
+    second: equipment-pro-v1.1_0
+  - first:
+      213: -5408862140233373812
+    second: equipment-pro-v1.1_1
+  - first:
+      213: 3341741980916328498
+    second: equipment-pro-v1.1_2
+  - first:
+      213: 1057953355441547639
+    second: equipment-pro-v1.1_3
+  - first:
+      213: -1881928799523137232
+    second: equipment-pro-v1.1_4
+  - first:
+      213: -5921364183445142571
+    second: equipment-pro-v1.1_5
+  - first:
+      213: 1312647344048244715
+    second: equipment-pro-v1.1_6
+  - first:
+      213: -1343265140443054421
+    second: equipment-pro-v1.1_7
+  - first:
+      213: -5944009739367880222
+    second: equipment-pro-v1.1_8
+  - first:
+      213: -7058002407217049960
+    second: equipment-pro-v1.1_9
+  - first:
+      213: -8254263124307548984
+    second: equipment-pro-v1.1_10
+  - first:
+      213: -6624119972892921469
+    second: equipment-pro-v1.1_11
+  - first:
+      213: 7100118386668993562
+    second: equipment-pro-v1.1_12
+  - first:
+      213: -4167458270528601988
+    second: equipment-pro-v1.1_13
+  - first:
+      213: 2943456502211508892
+    second: equipment-pro-v1.1_14
+  - first:
+      213: 3177412559770667281
+    second: equipment-pro-v1.1_15
+  - first:
+      213: -9127229570517945082
+    second: equipment-pro-v1.1_16
+  - first:
+      213: -6766562771920573945
+    second: equipment-pro-v1.1_17
+  - first:
+      213: 990208859653194296
+    second: equipment-pro-v1.1_18
+  - first:
+      213: -5319270252081048273
+    second: equipment-pro-v1.1_19
+  - first:
+      213: 1197558233758287782
+    second: equipment-pro-v1.1_20
+  - first:
+      213: -5058357626317745139
+    second: equipment-pro-v1.1_21
+  - first:
+      213: 783663260867051234
+    second: equipment-pro-v1.1_22
+  - first:
+      213: -5594372647100679040
+    second: equipment-pro-v1.1_23
+  - first:
+      213: 5672748945831719301
+    second: equipment-pro-v1.1_24
+  - first:
+      213: -2263001802649833601
+    second: equipment-pro-v1.1_25
+  - first:
+      213: 8250253000776226605
+    second: equipment-pro-v1.1_26
+  - first:
+      213: -3077175494666413119
+    second: equipment-pro-v1.1_27
+  - first:
+      213: 3918925487530225859
+    second: equipment-pro-v1.1_28
+  - first:
+      213: 6323469997932751543
+    second: equipment-pro-v1.1_29
+  - first:
+      213: 136670073341084903
+    second: equipment-pro-v1.1_30
+  - first:
+      213: 6103480718728000236
+    second: equipment-pro-v1.1_31
+  - first:
+      213: -4967180548700566664
+    second: equipment-pro-v1.1_32
+  - first:
+      213: -4418924636734585066
+    second: equipment-pro-v1.1_33
+  - first:
+      213: -2797018356384207584
+    second: equipment-pro-v1.1_34
+  - first:
+      213: 9056588768999439896
+    second: equipment-pro-v1.1_35
+  - first:
+      213: 4209061332915769005
+    second: equipment-pro-v1.1_36
+  - first:
+      213: -8937093544465608378
+    second: equipment-pro-v1.1_37
+  - first:
+      213: -6770685991940725518
+    second: equipment-pro-v1.1_38
+  - first:
+      213: -3301017487405712859
+    second: equipment-pro-v1.1_39
+  - first:
+      213: -5894076005835708673
+    second: equipment-pro-v1.1_40
+  - first:
+      213: 2257868546830363171
+    second: equipment-pro-v1.1_41
+  - first:
+      213: -8410465242374241208
+    second: equipment-pro-v1.1_42
+  - first:
+      213: -1891591214387479852
+    second: equipment-pro-v1.1_43
+  - first:
+      213: -6544456477769008228
+    second: equipment-pro-v1.1_44
+  - first:
+      213: -4993494422096137358
+    second: equipment-pro-v1.1_45
+  - first:
+      213: 682427195834475878
+    second: equipment-pro-v1.1_46
+  - first:
+      213: 4555527491042319858
+    second: equipment-pro-v1.1_47
+  - first:
+      213: -2816983852548013008
+    second: equipment-pro-v1.1_48
+  - first:
+      213: -8598903137767491229
+    second: equipment-pro-v1.1_49
+  - first:
+      213: -3285325517769708895
+    second: equipment-pro-v1.1_50
+  - first:
+      213: 1781678524512796092
+    second: equipment-pro-v1.1_51
+  - first:
+      213: -5461274847179846742
+    second: equipment-pro-v1.1_52
+  - first:
+      213: 689210217038059883
+    second: equipment-pro-v1.1_53
+  - first:
+      213: -2484570648440557875
+    second: equipment-pro-v1.1_54
+  - first:
+      213: -4885768803883023083
+    second: equipment-pro-v1.1_55
+  - first:
+      213: -5000011896873488830
+    second: equipment-pro-v1.1_56
+  - first:
+      213: -8344602376594304975
+    second: equipment-pro-v1.1_57
+  - first:
+      213: 7157728172481525933
+    second: equipment-pro-v1.1_58
+  - first:
+      213: 5867431681522688779
+    second: equipment-pro-v1.1_59
+  - first:
+      213: -897528514476578301
+    second: equipment-pro-v1.1_60
+  - first:
+      213: 5571490520242498104
+    second: equipment-pro-v1.1_61
+  - first:
+      213: 2612029234414070298
+    second: equipment-pro-v1.1_62
+  - first:
+      213: -3692254187928307560
+    second: equipment-pro-v1.1_63
+  - first:
+      213: -9142807887660278270
+    second: equipment-pro-v1.1_64
+  - first:
+      213: -5559466347577613212
+    second: equipment-pro-v1.1_65
+  - first:
+      213: 1808319065940539126
+    second: equipment-pro-v1.1_66
+  - first:
+      213: 1613291715649650839
+    second: equipment-pro-v1.1_67
+  - first:
+      213: -4004676145991221673
+    second: equipment-pro-v1.1_68
+  - first:
+      213: 4666178958228191951
+    second: equipment-pro-v1.1_69
+  - first:
+      213: 7177010982674425728
+    second: equipment-pro-v1.1_70
+  - first:
+      213: -1728237755956610261
+    second: equipment-pro-v1.1_71
+  - first:
+      213: 183244349207155692
+    second: equipment-pro-v1.1_72
+  - first:
+      213: -6990802922856929451
+    second: equipment-pro-v1.1_73
+  - first:
+      213: -263730954614970718
+    second: equipment-pro-v1.1_74
+  - first:
+      213: 2803820385154720145
+    second: equipment-pro-v1.1_75
+  - first:
+      213: -270858849926039466
+    second: equipment-pro-v1.1_76
+  - first:
+      213: 4464378041867878419
+    second: equipment-pro-v1.1_77
+  - first:
+      213: 363559245692641636
+    second: equipment-pro-v1.1_78
+  - first:
+      213: -2370729119978693171
+    second: equipment-pro-v1.1_79
+  - first:
+      213: -2406929027049716454
+    second: equipment-pro-v1.1_80
+  - first:
+      213: -3972883510306929668
+    second: equipment-pro-v1.1_81
+  - first:
+      213: -4920179103864749784
+    second: equipment-pro-v1.1_82
+  - first:
+      213: -8161348993206314378
+    second: equipment-pro-v1.1_83
+  - first:
+      213: -9006047168312464434
+    second: equipment-pro-v1.1_84
+  - first:
+      213: 3248368768870153951
+    second: equipment-pro-v1.1_85
+  - first:
+      213: 1110939278511849681
+    second: equipment-pro-v1.1_86
+  - first:
+      213: -1210283953935438722
+    second: equipment-pro-v1.1_87
+  - first:
+      213: 5927554630358441568
+    second: equipment-pro-v1.1_88
+  - first:
+      213: -4329461446555205186
+    second: equipment-pro-v1.1_89
+  - first:
+      213: 5580183338085385573
+    second: equipment-pro-v1.1_90
+  - first:
+      213: 438009248003443
+    second: equipment-pro-v1.1_91
+  - first:
+      213: -4794898519022948884
+    second: equipment-pro-v1.1_92
+  - first:
+      213: -1485225422943699342
+    second: equipment-pro-v1.1_93
+  - first:
+      213: -3277048899173531721
+    second: equipment-pro-v1.1_94
+  - first:
+      213: 5743612791992828849
+    second: equipment-pro-v1.1_95
+  - first:
+      213: 3222143957795073764
+    second: equipment-pro-v1.1_96
+  - first:
+      213: 3440537747898534181
+    second: equipment-pro-v1.1_97
+  - first:
+      213: -5156659508508163593
+    second: equipment-pro-v1.1_98
+  - first:
+      213: -7269002005255843585
+    second: equipment-pro-v1.1_99
+  - first:
+      213: 344772393826238416
+    second: equipment-pro-v1.1_100
+  - first:
+      213: 1060449353216214763
+    second: equipment-pro-v1.1_101
+  - first:
+      213: -4893420479741439919
+    second: equipment-pro-v1.1_102
+  - first:
+      213: 4067515099010648551
+    second: equipment-pro-v1.1_103
+  - first:
+      213: -1650423382856419923
+    second: equipment-pro-v1.1_104
+  - first:
+      213: -4367978448531003245
+    second: equipment-pro-v1.1_105
+  - first:
+      213: -9076798941090881726
+    second: equipment-pro-v1.1_106
+  - first:
+      213: -4298382787018924801
+    second: equipment-pro-v1.1_107
+  - first:
+      213: -4831413917463647752
+    second: equipment-pro-v1.1_108
+  - first:
+      213: 5241466353138602381
+    second: equipment-pro-v1.1_109
+  - first:
+      213: 7872972887021860288
+    second: equipment-pro-v1.1_110
+  - first:
+      213: 4687851450121082261
+    second: equipment-pro-v1.1_111
+  - first:
+      213: -764334321294117427
+    second: equipment-pro-v1.1_112
+  - first:
+      213: -4469302890342460938
+    second: equipment-pro-v1.1_113
+  - first:
+      213: -7798827915275905826
+    second: equipment-pro-v1.1_114
+  - first:
+      213: -5763974945294170509
+    second: equipment-pro-v1.1_115
+  - first:
+      213: 689919071427274756
+    second: equipment-pro-v1.1_116
+  - first:
+      213: 3733910367942787456
+    second: equipment-pro-v1.1_117
+  - first:
+      213: 1053758362481079832
+    second: equipment-pro-v1.1_118
+  - first:
+      213: 3500454830416079367
+    second: equipment-pro-v1.1_119
+  - first:
+      213: -4796620244388364419
+    second: equipment-pro-v1.1_120
+  - first:
+      213: -3645993844893502808
+    second: equipment-pro-v1.1_121
+  - first:
+      213: 8461216804379265550
+    second: equipment-pro-v1.1_122
+  - first:
+      213: 2069263839790356268
+    second: equipment-pro-v1.1_123
+  - first:
+      213: -6303335454199388378
+    second: equipment-pro-v1.1_124
+  - first:
+      213: 896346090286082641
+    second: equipment-pro-v1.1_125
+  - first:
+      213: 4938695786555977144
+    second: equipment-pro-v1.1_126
+  - first:
+      213: -5875731155654358243
+    second: equipment-pro-v1.1_127
+  - first:
+      213: 2997039944764557989
+    second: equipment-pro-v1.1_128
+  - first:
+      213: -7660016051561372153
+    second: equipment-pro-v1.1_129
+  - first:
+      213: -3034124120732240407
+    second: equipment-pro-v1.1_130
+  - first:
+      213: 312709717180417744
+    second: equipment-pro-v1.1_131
+  - first:
+      213: 6247361779707950591
+    second: equipment-pro-v1.1_132
+  - first:
+      213: -1335448856838403991
+    second: equipment-pro-v1.1_133
+  - first:
+      213: 5952653738767963761
+    second: equipment-pro-v1.1_134
+  - first:
+      213: -8715523830100819141
+    second: equipment-pro-v1.1_135
+  - first:
+      213: -5793112914206343518
+    second: equipment-pro-v1.1_136
+  - first:
+      213: -7697152207551141541
+    second: equipment-pro-v1.1_137
+  - first:
+      213: 6200645830811441785
+    second: equipment-pro-v1.1_138
+  - first:
+      213: -7902632913505797601
+    second: equipment-pro-v1.1_139
+  - first:
+      213: 8725232978952553599
+    second: equipment-pro-v1.1_140
+  - first:
+      213: -7146096677773824478
+    second: equipment-pro-v1.1_141
+  - first:
+      213: -8834389250717060120
+    second: equipment-pro-v1.1_142
+  - first:
+      213: -2531725213526749225
+    second: equipment-pro-v1.1_143
+  - first:
+      213: -2058624883241930534
+    second: equipment-pro-v1.1_144
+  - first:
+      213: 5123766193628301956
+    second: equipment-pro-v1.1_145
+  - first:
+      213: 4575813895541193099
+    second: equipment-pro-v1.1_146
+  - first:
+      213: -2423666408460460554
+    second: equipment-pro-v1.1_147
+  - first:
+      213: -4533248996090209812
+    second: equipment-pro-v1.1_148
+  - first:
+      213: -7231625567470971585
+    second: equipment-pro-v1.1_149
+  - first:
+      213: -3546725189323691606
+    second: equipment-pro-v1.1_150
+  - first:
+      213: 8043062087687998754
+    second: equipment-pro-v1.1_151
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4bcc8f03a31a720800000000000000
+      internalID: 2855627620736611503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87a4547a8cdfe4b0800000000000000
+      internalID: -5408862140233373812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238278750a0406e20800000000000000
+      internalID: 3341741980916328498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779a604b8fa9eae00800000000000000
+      internalID: 1057953355441547639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03998db4abb02e5e0800000000000000
+      internalID: -1881928799523137232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 5
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3080cd5a613dda0800000000000000
+      internalID: -5921364183445142571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be70b510ec5773210800000000000000
+      internalID: 1312647344048244715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baef9b0c873cb5de0800000000000000
+      internalID: -1343265140443054421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 5
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9e38f72a2a28da0800000000000000
+      internalID: -5944009739367880222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_9
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 5
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ec9fd9430fc0e90800000000000000
+      internalID: -7058002407217049960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4ea01eb67f27d80800000000000000
+      internalID: -8254263124307548984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381b5221bf56214a0800000000000000
+      internalID: -6624119972892921469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 5
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cff9cfd00b88260800000000000000
+      internalID: 7100118386668993562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7001e878c63a26c0800000000000000
+      internalID: -4167458270528601988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a712af71249d820800000000000000
+      internalID: 2943456502211508892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119cef173ef681c20800000000000000
+      internalID: 3177412559770667281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60536d15011955180800000000000000
+      internalID: -9127229570517945082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70aaa4d72075812a0800000000000000
+      internalID: -6766562771920573945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832c21526bdedbd00800000000000000
+      internalID: 990208859653194296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25186073e72e26b0800000000000000
+      internalID: -5319270252081048273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7c1016ed49e9010800000000000000
+      internalID: 1197558233758287782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0451780a8a1dc9b0800000000000000
+      internalID: -5058357626317745139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee318f659120ea00800000000000000
+      internalID: 783663260867051234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 5
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cf66cb7bbcc52b0800000000000000
+      internalID: -5594372647100679040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58175485c17a9be40800000000000000
+      internalID: 5672748945831719301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fecf2b9d33890e0800000000000000
+      internalID: -2263001802649833601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_26
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d271e5a7469ce7270800000000000000
+      internalID: 8250253000776226605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_27
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb1fd0f03dab45d0800000000000000
+      internalID: -3077175494666413119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0b671b7f1d26630800000000000000
+      internalID: 3918925487530225859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_29
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba2f9eb57a71c750800000000000000
+      internalID: 6323469997932751543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e40ce425bc85e100800000000000000
+      internalID: 136670073341084903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_31
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce27a35406be3b450800000000000000
+      internalID: 6103480718728000236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_32
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b0973bb97011bb0800000000000000
+      internalID: -4967180548700566664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_33
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61786329473dca2c0800000000000000
+      internalID: -4418924636734585066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 5
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02de875cf9efe29d0800000000000000
+      internalID: -2797018356384207584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_35
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 2
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ef00560877fad70800000000000000
+      internalID: 9056588768999439896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_36
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daec6425bf6996a30800000000000000
+      internalID: 4209061332915769005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 5
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641d0b5a5c019f380800000000000000
+      internalID: -8937093544465608378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_38
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4e8a486f0b902a0800000000000000
+      internalID: -6770685991940725518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_39
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a74d1b51e6032d0800000000000000
+      internalID: -3301017487405712859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_40
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff66201d919043ea0800000000000000
+      internalID: -5894076005835708673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_41
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ae95b0b7f855f10800000000000000
+      internalID: 2257868546830363171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_42
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 5
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84483803c66084b80800000000000000
+      internalID: -8410465242374241208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_43
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 5
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da3f2600d7bfb5e0800000000000000
+      internalID: -1891591214387479852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_44
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 5
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bf29ae18b6d25a0800000000000000
+      internalID: -6544456477769008228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_45
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273b01f974b83bab0800000000000000
+      internalID: -4993494422096137358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_46
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665a7c04be7787900800000000000000
+      internalID: 682427195834475878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_47
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 5
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd9a1ced1c783f30800000000000000
+      internalID: 4555527491042319858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_48
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0344dd27c1018e8d0800000000000000
+      internalID: -2816983852548013008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_49
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3697067b72f8aa880800000000000000
+      internalID: -8598903137767491229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_50
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 5
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa6fc519dd2862d0800000000000000
+      internalID: -3285325517769708895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_51
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdf685ad2bc9b810800000000000000
+      internalID: 1781678524512796092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_52
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabc1192677a534b0800000000000000
+      internalID: -5461274847179846742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_53
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b699f127a01909900800000000000000
+      internalID: 689210217038059883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_54
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcea658b828058dd0800000000000000
+      internalID: -2484570648440557875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_55
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 5
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5150ed5a823423cb0800000000000000
+      internalID: -4885768803883023083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_56
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ee026cba36c9ab0800000000000000
+      internalID: -5000011896873488830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_57
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130573f9954023c80800000000000000
+      internalID: -8344602376594304975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_58
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8319f79db555360800000000000000
+      internalID: 7157728172481525933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_59
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b036801070e4d6150800000000000000
+      internalID: 5867431681522688779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_60
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 3
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ae6d642965b83f0800000000000000
+      internalID: -897528514476578301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_61
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 3
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83aa280fb19e15d40800000000000000
+      internalID: 5571490520242498104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_62
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 7
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1aaf24efbacf3420800000000000000
+      internalID: 2612029234414070298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_63
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 6
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898b514e06a72ccc0800000000000000
+      internalID: -3692254187928307560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_64
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 5
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e9e56baa83e1180800000000000000
+      internalID: -9142807887660278270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_65
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464e5ebefcec8d2b0800000000000000
+      internalID: -5559466347577613212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_66
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 4
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6b3fd0c90781910800000000000000
+      internalID: 1808319065940539126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_67
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 4
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790c06e8440936610800000000000000
+      internalID: 1613291715649650839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_68
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 4
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e76bd43488c68c0800000000000000
+      internalID: -4004676145991221673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_69
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 4
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaf79f3a0991c040800000000000000
+      internalID: 4666178958228191951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_70
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 4
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087e26b967dd99360800000000000000
+      internalID: 7177010982674425728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_71
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 12
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bb9c4eae01408e0800000000000000
+      internalID: -1728237755956610261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_72
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 5
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce31795c3c30b8200800000000000000
+      internalID: 183244349207155692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_73
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 5
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557a950d7cdabfe90800000000000000
+      internalID: -6990802922856929451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_74
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 4
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a666e5181a075cf0800000000000000
+      internalID: -263730954614970718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_75
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 12
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1916527f8cb29e620800000000000000
+      internalID: 2803820385154720145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_76
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 6
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65833e1af47bd3cf0800000000000000
+      internalID: -270858849926039466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_77
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 6
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310c6900d28a4fd30800000000000000
+      internalID: 4464378041867878419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_78
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 5
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461a15e253f9b0500800000000000000
+      internalID: 363559245692641636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_79
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcddef01d6a791fd0800000000000000
+      internalID: -2370729119978693171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_80
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1500276dced89ed0800000000000000
+      internalID: -2406929027049716454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_81
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf306222f7b7dd8c0800000000000000
+      internalID: -3972883510306929668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_82
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 5
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82187da5c2308bbb0800000000000000
+      internalID: -4920179103864749784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_83
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a12f3d4501dbe80800000000000000
+      internalID: -8161348993206314378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_84
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecba25601d7140380800000000000000
+      internalID: -9006047168312464434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde7af74f26841d20800000000000000
+      internalID: 3248368768870153951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_86
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d04ab64369da6f00800000000000000
+      internalID: 1110939278511849681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_87
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ca2500825343fe0800000000000000
+      internalID: -1210283953935438722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_88
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e9c31e787e24250800000000000000
+      internalID: 5927554630358441568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_89
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb10459b0c9aae3c0800000000000000
+      internalID: -4329461446555205186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_90
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56502205e2bc07d40800000000000000
+      internalID: 5580183338085385573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_91
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375b2a9fd5e810000800000000000000
+      internalID: 438009248003443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_92
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced279f8339157db0800000000000000
+      internalID: -4794898519022948884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_93
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 5
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ebf0ec85b636be0800000000000000
+      internalID: -1485225422943699342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_94
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 3
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf3d2583659582d0800000000000000
+      internalID: -3277048899173531721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_95
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b34f12476965bf40800000000000000
+      internalID: 5743612791992828849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_96
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eeeb83abda57bc20800000000000000
+      internalID: 3222143957795073764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_97
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52980db5ade3fbf20800000000000000
+      internalID: 3440537747898534181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_98
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f10bb78f7ddf68b0800000000000000
+      internalID: -5156659508508163593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_99
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 5
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff09f1560315f1b90800000000000000
+      internalID: -7269002005255843585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_100
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 5
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfbf5e5aa0e8c400800000000000000
+      internalID: 344772393826238416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_101
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 5
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6ceb8711977be00800000000000000
+      internalID: 1060449353216214763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_102
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 5
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150d3680004171cb0800000000000000
+      internalID: -4893420479741439919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_103
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e941139e67b27830800000000000000
+      internalID: 4067515099010648551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_104
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da538d77da48819e0800000000000000
+      internalID: -1650423382856419923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_105
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3986fbc5eb2d163c0800000000000000
+      internalID: -4367978448531003245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_106
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fd2aa347bb80280800000000000000
+      internalID: -9076798941090881726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_107
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc551701a31954c0800000000000000
+      internalID: -4298382787018924801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_108
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f963b6d3ae53fcb0800000000000000
+      internalID: -4831413917463647752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_109
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d811df0b0ed6db840800000000000000
+      internalID: 5241466353138602381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_110
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c53831c02b624d60800000000000000
+      internalID: 7872972887021860288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_111
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 5
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595544c7e089e0140800000000000000
+      internalID: 4687851450121082261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_112
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5ff910cf98465f0800000000000000
+      internalID: -764334321294117427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_113
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1d28b53b8d9f1c0800000000000000
+      internalID: -4469302890342460938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_114
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4549db45ff4c390800000000000000
+      internalID: -7798827915275905826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_115
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3764d7b735f3200b0800000000000000
+      internalID: -5763974945294170509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_116
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 5
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408a0387db5139900800000000000000
+      internalID: 689919071427274756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_117
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081c06052b381d330800000000000000
+      internalID: 3733910367942787456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_118
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81638cac5a3bf9e00800000000000000
+      internalID: 1053758362481079832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_119
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a204f3f1d149030800000000000000
+      internalID: 3500454830416079367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_120
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fb8c22d4bfe6db0800000000000000
+      internalID: -4796620244388364419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_121
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2bcd55ae3d66dc0800000000000000
+      internalID: -3645993844893502808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_122
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a8798aad74c6570800000000000000
+      internalID: 8461216804379265550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_123
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 5
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27d345bf7087bc10800000000000000
+      internalID: 2069263839790356268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_124
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 5
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627e1580dcd0688a0800000000000000
+      internalID: -6303335454199388378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_125
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 3
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15aef432506707c00800000000000000
+      internalID: 896346090286082641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_126
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd236bc6a5c98440800000000000000
+      internalID: 4938695786555977144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_127
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bc68715a5357ea0800000000000000
+      internalID: -5875731155654358243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_128
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa095563ff979920800000000000000
+      internalID: 2997039944764557989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_129
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706e4e05cf722b590800000000000000
+      internalID: -7660016051561372153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_130
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 5
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e57f4b0030a4e5d0800000000000000
+      internalID: -3034124120732240407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_131
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 5
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d60a5ab4d7f65400800000000000000
+      internalID: 312709717180417744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_132
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 5
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff538de407613b650800000000000000
+      internalID: 6247361779707950591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_133
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 5
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96802781758877de0800000000000000
+      internalID: -1335448856838403991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_134
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1765a2279031c9250800000000000000
+      internalID: 5952653738767963761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_135
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33836bd04d3c0780800000000000000
+      internalID: -8715523830100819141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_136
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aeb00d6f7aba9fa0800000000000000
+      internalID: -5793112914206343518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_137
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59ecc639d83e2590800000000000000
+      internalID: -7697152207551141541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_138
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ad58bd78e1d0650800000000000000
+      internalID: 6200645830811441785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_139
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a3d203c35345290800000000000000
+      internalID: -7902632913505797601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_140
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f748df48a21461970800000000000000
+      internalID: 8725232978952553599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_141
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e21b6eee6f3dc90800000000000000
+      internalID: -7146096677773824478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_142
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 5
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3fa7778c1f56580800000000000000
+      internalID: -8834389250717060120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_143
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df86daf4518ddcd0800000000000000
+      internalID: -2531725213526749225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_144
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0b594639b4e63e0800000000000000
+      internalID: -2058624883241930534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_145
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ace5bc4364b1740800000000000000
+      internalID: 5123766193628301956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_146
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89770a8e7e808f30800000000000000
+      internalID: 4575813895541193099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_147
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fddaad1e386d5ed0800000000000000
+      internalID: -2423666408460460554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_148
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce995a56e0aa611c0800000000000000
+      internalID: -4533248996090209812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_149
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 5
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3592467cda14ab90800000000000000
+      internalID: -7231625567470971585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_150
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa96e6e4b3087cec0800000000000000
+      internalID: -3546725189323691606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equipment-pro-v1.1_151
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 4
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d0e03da52be9f60800000000000000
+      internalID: 8043062087687998754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

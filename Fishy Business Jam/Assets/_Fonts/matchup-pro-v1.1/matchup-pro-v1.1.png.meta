@@ -1,0 +1,3755 @@
+fileFormatVersion: 2
+guid: 214c575a97aec5e479cfe985818c6ac1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8236091156795067661
+    second: matchup-pro-v1.1_0
+  - first:
+      213: -8676049380419249846
+    second: matchup-pro-v1.1_1
+  - first:
+      213: 4000980627346699854
+    second: matchup-pro-v1.1_2
+  - first:
+      213: -6164297228383530792
+    second: matchup-pro-v1.1_3
+  - first:
+      213: -3452470229923821427
+    second: matchup-pro-v1.1_4
+  - first:
+      213: -6635398934547845604
+    second: matchup-pro-v1.1_5
+  - first:
+      213: -5653698711399378010
+    second: matchup-pro-v1.1_6
+  - first:
+      213: 4479933585189573790
+    second: matchup-pro-v1.1_7
+  - first:
+      213: 709734773076510476
+    second: matchup-pro-v1.1_8
+  - first:
+      213: 1338919037433488549
+    second: matchup-pro-v1.1_9
+  - first:
+      213: -9071289016615161401
+    second: matchup-pro-v1.1_10
+  - first:
+      213: 6448420859383411897
+    second: matchup-pro-v1.1_11
+  - first:
+      213: 6790333264231793645
+    second: matchup-pro-v1.1_12
+  - first:
+      213: -4685414462140760877
+    second: matchup-pro-v1.1_13
+  - first:
+      213: 3714418594291829460
+    second: matchup-pro-v1.1_14
+  - first:
+      213: -256695039785764287
+    second: matchup-pro-v1.1_15
+  - first:
+      213: -3042257570972901521
+    second: matchup-pro-v1.1_16
+  - first:
+      213: -1695778511549048669
+    second: matchup-pro-v1.1_17
+  - first:
+      213: -1386340540069574791
+    second: matchup-pro-v1.1_18
+  - first:
+      213: -3646702472736028095
+    second: matchup-pro-v1.1_19
+  - first:
+      213: 5598301311485475568
+    second: matchup-pro-v1.1_20
+  - first:
+      213: 1054934299003007166
+    second: matchup-pro-v1.1_21
+  - first:
+      213: -378514247690839578
+    second: matchup-pro-v1.1_22
+  - first:
+      213: -5344748374167690925
+    second: matchup-pro-v1.1_23
+  - first:
+      213: 2073323511113441604
+    second: matchup-pro-v1.1_24
+  - first:
+      213: 1155214473294058720
+    second: matchup-pro-v1.1_25
+  - first:
+      213: -8255177574418417282
+    second: matchup-pro-v1.1_26
+  - first:
+      213: -756125245326552666
+    second: matchup-pro-v1.1_27
+  - first:
+      213: -2554399065433846924
+    second: matchup-pro-v1.1_28
+  - first:
+      213: 3897567068115938024
+    second: matchup-pro-v1.1_29
+  - first:
+      213: 1101837221662766363
+    second: matchup-pro-v1.1_30
+  - first:
+      213: 8882111139192947171
+    second: matchup-pro-v1.1_31
+  - first:
+      213: 9205376860820912776
+    second: matchup-pro-v1.1_32
+  - first:
+      213: -2870858028910113318
+    second: matchup-pro-v1.1_33
+  - first:
+      213: -6658092508483077366
+    second: matchup-pro-v1.1_34
+  - first:
+      213: -2476934054827930861
+    second: matchup-pro-v1.1_35
+  - first:
+      213: 1280227765371644359
+    second: matchup-pro-v1.1_36
+  - first:
+      213: -7642822641598153158
+    second: matchup-pro-v1.1_37
+  - first:
+      213: 8944647496876654645
+    second: matchup-pro-v1.1_38
+  - first:
+      213: -5841735043477648945
+    second: matchup-pro-v1.1_39
+  - first:
+      213: 4210886921867334403
+    second: matchup-pro-v1.1_40
+  - first:
+      213: 2833212390961989718
+    second: matchup-pro-v1.1_41
+  - first:
+      213: -4214499604064990416
+    second: matchup-pro-v1.1_42
+  - first:
+      213: 5648682188313981342
+    second: matchup-pro-v1.1_43
+  - first:
+      213: 6048470964805266992
+    second: matchup-pro-v1.1_44
+  - first:
+      213: -8144342890478893031
+    second: matchup-pro-v1.1_45
+  - first:
+      213: 6788450367816853063
+    second: matchup-pro-v1.1_46
+  - first:
+      213: -448907217584080251
+    second: matchup-pro-v1.1_47
+  - first:
+      213: 7429493111510912082
+    second: matchup-pro-v1.1_48
+  - first:
+      213: -1665399888021806318
+    second: matchup-pro-v1.1_49
+  - first:
+      213: 6263813714524130547
+    second: matchup-pro-v1.1_50
+  - first:
+      213: -8082695542155226545
+    second: matchup-pro-v1.1_51
+  - first:
+      213: -9216795288099606903
+    second: matchup-pro-v1.1_52
+  - first:
+      213: 7709440359393378982
+    second: matchup-pro-v1.1_53
+  - first:
+      213: 363857731293143488
+    second: matchup-pro-v1.1_54
+  - first:
+      213: -4767816580632977245
+    second: matchup-pro-v1.1_55
+  - first:
+      213: -3095158308607107094
+    second: matchup-pro-v1.1_56
+  - first:
+      213: 7393834612369212334
+    second: matchup-pro-v1.1_57
+  - first:
+      213: -2232243294323434881
+    second: matchup-pro-v1.1_58
+  - first:
+      213: 4686752552037092155
+    second: matchup-pro-v1.1_59
+  - first:
+      213: -8484765939623322008
+    second: matchup-pro-v1.1_60
+  - first:
+      213: -1937006519730321473
+    second: matchup-pro-v1.1_61
+  - first:
+      213: -4855708589500559720
+    second: matchup-pro-v1.1_62
+  - first:
+      213: 5973548589106459522
+    second: matchup-pro-v1.1_63
+  - first:
+      213: 6605319106894978571
+    second: matchup-pro-v1.1_64
+  - first:
+      213: 5749506633309369773
+    second: matchup-pro-v1.1_65
+  - first:
+      213: 3980735789534968448
+    second: matchup-pro-v1.1_66
+  - first:
+      213: 8124431883471979060
+    second: matchup-pro-v1.1_67
+  - first:
+      213: 8934833968342504358
+    second: matchup-pro-v1.1_68
+  - first:
+      213: 1892172585476873388
+    second: matchup-pro-v1.1_69
+  - first:
+      213: 4299034440354214094
+    second: matchup-pro-v1.1_70
+  - first:
+      213: -4258360391208840811
+    second: matchup-pro-v1.1_71
+  - first:
+      213: -2864418479632569074
+    second: matchup-pro-v1.1_72
+  - first:
+      213: 5117009882636583652
+    second: matchup-pro-v1.1_73
+  - first:
+      213: -1225009660594113005
+    second: matchup-pro-v1.1_74
+  - first:
+      213: 1420863502508138579
+    second: matchup-pro-v1.1_75
+  - first:
+      213: -5066468139160593879
+    second: matchup-pro-v1.1_76
+  - first:
+      213: -2178552582773993630
+    second: matchup-pro-v1.1_77
+  - first:
+      213: -4896798479144219824
+    second: matchup-pro-v1.1_78
+  - first:
+      213: -4852749978708074545
+    second: matchup-pro-v1.1_79
+  - first:
+      213: 3790540694394856804
+    second: matchup-pro-v1.1_80
+  - first:
+      213: -3196262567448039014
+    second: matchup-pro-v1.1_81
+  - first:
+      213: -556264062803288934
+    second: matchup-pro-v1.1_82
+  - first:
+      213: 53749224591506418
+    second: matchup-pro-v1.1_83
+  - first:
+      213: -1191074028395938673
+    second: matchup-pro-v1.1_84
+  - first:
+      213: -7087158585236917384
+    second: matchup-pro-v1.1_85
+  - first:
+      213: -2396130237382400506
+    second: matchup-pro-v1.1_86
+  - first:
+      213: 3809468863463625249
+    second: matchup-pro-v1.1_87
+  - first:
+      213: -6398806383646561206
+    second: matchup-pro-v1.1_88
+  - first:
+      213: -1889386871720922692
+    second: matchup-pro-v1.1_89
+  - first:
+      213: -8643123406860832110
+    second: matchup-pro-v1.1_90
+  - first:
+      213: -4861284145592636264
+    second: matchup-pro-v1.1_91
+  - first:
+      213: 6625114301803735704
+    second: matchup-pro-v1.1_92
+  - first:
+      213: -6890196964427006471
+    second: matchup-pro-v1.1_93
+  - first:
+      213: -8590841110660651122
+    second: matchup-pro-v1.1_94
+  - first:
+      213: -5630028574474469217
+    second: matchup-pro-v1.1_95
+  - first:
+      213: -2115351313025463272
+    second: matchup-pro-v1.1_96
+  - first:
+      213: 8454224901548133873
+    second: matchup-pro-v1.1_97
+  - first:
+      213: 8936179272341171765
+    second: matchup-pro-v1.1_98
+  - first:
+      213: -1589740573552137802
+    second: matchup-pro-v1.1_99
+  - first:
+      213: -4833759656870450848
+    second: matchup-pro-v1.1_100
+  - first:
+      213: 6946573081423306828
+    second: matchup-pro-v1.1_101
+  - first:
+      213: -7619462070293469284
+    second: matchup-pro-v1.1_102
+  - first:
+      213: -8137988581471045060
+    second: matchup-pro-v1.1_103
+  - first:
+      213: 5476085262362467858
+    second: matchup-pro-v1.1_104
+  - first:
+      213: -6912048835807702655
+    second: matchup-pro-v1.1_105
+  - first:
+      213: -1740570643140006122
+    second: matchup-pro-v1.1_106
+  - first:
+      213: 924166900489947324
+    second: matchup-pro-v1.1_107
+  - first:
+      213: 9019654212142064369
+    second: matchup-pro-v1.1_108
+  - first:
+      213: -6101717753125859397
+    second: matchup-pro-v1.1_109
+  - first:
+      213: -1383664735789591122
+    second: matchup-pro-v1.1_110
+  - first:
+      213: -7411953285402559388
+    second: matchup-pro-v1.1_111
+  - first:
+      213: -8431541035977142116
+    second: matchup-pro-v1.1_112
+  - first:
+      213: -6724068289830874244
+    second: matchup-pro-v1.1_113
+  - first:
+      213: -7008895008005706688
+    second: matchup-pro-v1.1_114
+  - first:
+      213: -1051832738423472315
+    second: matchup-pro-v1.1_115
+  - first:
+      213: -1291496165485626561
+    second: matchup-pro-v1.1_116
+  - first:
+      213: -7092544539298143240
+    second: matchup-pro-v1.1_117
+  - first:
+      213: 1984959858769619455
+    second: matchup-pro-v1.1_118
+  - first:
+      213: -1778286211611119028
+    second: matchup-pro-v1.1_119
+  - first:
+      213: 5687316418324890882
+    second: matchup-pro-v1.1_120
+  - first:
+      213: 7691694894923287688
+    second: matchup-pro-v1.1_121
+  - first:
+      213: -7792741306657042407
+    second: matchup-pro-v1.1_122
+  - first:
+      213: 886409005660485396
+    second: matchup-pro-v1.1_123
+  - first:
+      213: -1206950402417227558
+    second: matchup-pro-v1.1_124
+  - first:
+      213: -5870373117015881741
+    second: matchup-pro-v1.1_125
+  - first:
+      213: -8538964269824776665
+    second: matchup-pro-v1.1_126
+  - first:
+      213: 6234845952632535689
+    second: matchup-pro-v1.1_127
+  - first:
+      213: -3512413362564225716
+    second: matchup-pro-v1.1_128
+  - first:
+      213: 3209394353593447328
+    second: matchup-pro-v1.1_129
+  - first:
+      213: -3039921788195440462
+    second: matchup-pro-v1.1_130
+  - first:
+      213: -7880425393016873303
+    second: matchup-pro-v1.1_131
+  - first:
+      213: -6032885907624614877
+    second: matchup-pro-v1.1_132
+  - first:
+      213: 7488644902138722000
+    second: matchup-pro-v1.1_133
+  - first:
+      213: 5984984529057390415
+    second: matchup-pro-v1.1_134
+  - first:
+      213: -9034926512688017982
+    second: matchup-pro-v1.1_135
+  - first:
+      213: -3669059508874757250
+    second: matchup-pro-v1.1_136
+  - first:
+      213: -7403562201509682188
+    second: matchup-pro-v1.1_137
+  - first:
+      213: 8283898954875653445
+    second: matchup-pro-v1.1_138
+  - first:
+      213: 845163044350448253
+    second: matchup-pro-v1.1_139
+  - first:
+      213: -6805837991321996819
+    second: matchup-pro-v1.1_140
+  - first:
+      213: -4286484016310535443
+    second: matchup-pro-v1.1_141
+  - first:
+      213: 8722420721653982370
+    second: matchup-pro-v1.1_142
+  - first:
+      213: 6209550752987880102
+    second: matchup-pro-v1.1_143
+  - first:
+      213: 1269051661499065758
+    second: matchup-pro-v1.1_144
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f27e75cab683bd80800000000000000
+      internalID: -8236091156795067661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49dc526e0b789780800000000000000
+      internalID: -8676049380419249846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e463836bea6568730800000000000000
+      internalID: 4000980627346699854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d05644a454047aa0800000000000000
+      internalID: -6164297228383530792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8887cb2e9c5610d0800000000000000
+      internalID: -3452470229923821427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e254b23d35ae3a0800000000000000
+      internalID: -6635398934547845604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3d4fff9f60a81b0800000000000000
+      internalID: -5653698711399378010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94119a2cdbeb2e30800000000000000
+      internalID: 4479933585189573790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07c7f9040c79d900800000000000000
+      internalID: 709734773076510476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a42b3945cbc49210800000000000000
+      internalID: 1338919037433488549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c130cd73be4c1280800000000000000
+      internalID: -9071289016615161401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b474cd3b946d7950800000000000000
+      internalID: 6448420859383411897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_12
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de30e09802c1c3e50800000000000000
+      internalID: 6790333264231793645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc3f9efe501afeb0800000000000000
+      internalID: -4685414462140760877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dacedb18044c8330800000000000000
+      internalID: 3714418594291829460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14af6f9a839007cf0800000000000000
+      internalID: -256695039785764287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fdae69bdab7c5d0800000000000000
+      internalID: -3042257570972901521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_17
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8d069ad626778e0800000000000000
+      internalID: -1695778511549048669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9770e6bbf9ab2cce0800000000000000
+      internalID: -1386340540069574791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ac70f0c6f446dc0800000000000000
+      internalID: -3646702472736028095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0faf1b8b16921bd40800000000000000
+      internalID: 5598301311485475568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb03379d721e3ae00800000000000000
+      internalID: 1054934299003007166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e996f31c4f3fbaf0800000000000000
+      internalID: -378514247690839578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35163efdba3a3d5b0800000000000000
+      internalID: -5344748374167690925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441e1689fbce5cc10800000000000000
+      internalID: 2073323511113441604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_25
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e415106175280010800000000000000
+      internalID: 1155214473294058720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79f40fdbb7bf6d80800000000000000
+      internalID: -8255177574418417282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_27
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a11b927814b185f0800000000000000
+      internalID: -756125245326552666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_28
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bc9327593fc8cd0800000000000000
+      internalID: -2554399065433846924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eaaf472990f61630800000000000000
+      internalID: 3897567068115938024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_30
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1533858d138a4f00800000000000000
+      internalID: 1101837221662766363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1c22b8509934b70800000000000000
+      internalID: 8882111139192947171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_32
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ab4d49b7110cf70800000000000000
+      internalID: 9205376860820912776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_33
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add0c3a45d9a828d0800000000000000
+      internalID: -2870858028910113318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_34
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b3d2eb324b993a0800000000000000
+      internalID: -6658092508483077366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_35
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bc9e9b99920add0800000000000000
+      internalID: -2476934054827930861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9a192ae5844c110800000000000000
+      internalID: 1280227765371644359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_37
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3eba360d4d3fe590800000000000000
+      internalID: -7642822641598153158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_38
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5308b64f185c12c70800000000000000
+      internalID: 8944647496876654645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_39
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc94095cdecfdeea0800000000000000
+      internalID: -5841735043477648945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_40
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3039d3f5853107a30800000000000000
+      internalID: 4210886921867334403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_41
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658468898a7915720800000000000000
+      internalID: 2833212390961989718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_42
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b8ea180f61385c0800000000000000
+      internalID: -4214499604064990416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91f783b586246e40800000000000000
+      internalID: 5648682188313981342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_44
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e6b7bdb4c70f350800000000000000
+      internalID: 6048470964805266992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_45
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918070caa4b79fe80800000000000000
+      internalID: -8144342890478893031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_46
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746e71d84ab653e50800000000000000
+      internalID: 6788450367816853063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_47
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58abac6934925c9f0800000000000000
+      internalID: -448907217584080251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_48
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cc1dc2f9cda1760800000000000000
+      internalID: 7429493111510912082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_49
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2132c7120af43e8e0800000000000000
+      internalID: -1665399888021806318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_50
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc4e61e2698de650800000000000000
+      internalID: 6263813714524130547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_51
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4254367a3f74df80800000000000000
+      internalID: -8082695542155226545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_52
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e2455a48d571080800000000000000
+      internalID: -9216795288099606903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_53
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2c3b6192f6dfa60800000000000000
+      internalID: 7709440359393378982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_54
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1e186cdaeac0500800000000000000
+      internalID: 363857731293143488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_55
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a06725b41055ddb0800000000000000
+      internalID: -4767816580632977245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefdfdbcae9cb05d0800000000000000
+      internalID: -3095158308607107094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_57
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3414ed76d2c9660800000000000000
+      internalID: 7393834612369212334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_58
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a9a9dfc8a7501e0800000000000000
+      internalID: -2232243294323434881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_59
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b83565d90ba0140800000000000000
+      internalID: 4686752552037092155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_60
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 4
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e1b66055e004a80800000000000000
+      internalID: -8484765939623322008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_61
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7cbdf35de5e15e0800000000000000
+      internalID: -1937006519730321473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_62
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e8106b3ce0d9cb0800000000000000
+      internalID: -4855708589500559720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_63
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283f936eace46e250800000000000000
+      internalID: 5973548589106459522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_64
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e53923bbecaab50800000000000000
+      internalID: 6605319106894978571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_65
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5382022d95acf40800000000000000
+      internalID: 5749506633309369773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_66
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a7ae71c1a6e3730800000000000000
+      internalID: 3980735789534968448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_67
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4328430c0c7cfb070800000000000000
+      internalID: 8124431883471979060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_68
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3162ac728eefb70800000000000000
+      internalID: 8934833968342504358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_69
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacd41bf0f8524a10800000000000000
+      internalID: 1892172585476873388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_70
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0bb76db0d39ab30800000000000000
+      internalID: 4299034440354214094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_71
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591576439c347e4c0800000000000000
+      internalID: -4258360391208840811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_72
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 4
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0daf61b19a8f38d0800000000000000
+      internalID: -2864418479632569074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_73
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 3
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e287be8065430740800000000000000
+      internalID: 5117009882636583652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_74
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316bddd3434effee0800000000000000
+      internalID: -1225009660594113005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_75
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350a055d3dbe7b310800000000000000
+      internalID: 1420863502508138579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_76
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a9f7b121a40b9b0800000000000000
+      internalID: -5066468139160593879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_77
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 2
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f0f3be7f934c1e0800000000000000
+      internalID: -2178552582773993630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_78
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b8fe14ab31b0cb0800000000000000
+      internalID: -4896798479144219824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_79
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf1257fa9197acb0800000000000000
+      internalID: -4852749978708074545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_80
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465611cada4ba9430800000000000000
+      internalID: 3790540694394856804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_81
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91b162212894a3d0800000000000000
+      internalID: -3196262567448039014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_82
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c5b4738c0c748f0800000000000000
+      internalID: -556264062803288934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_83
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbbabe82a4feb000800000000000000
+      internalID: 53749224591506418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_84
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c34445b74787fe0800000000000000
+      internalID: -1191074028395938673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_85
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873f71ce0da55ad90800000000000000
+      internalID: -7087158585236917384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_86
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 2
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606ef3d8e3c3fbed0800000000000000
+      internalID: -2396130237382400506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_87
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 0
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12219a57fb3fdd430800000000000000
+      internalID: 3809468863463625249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_88
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 2
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cae341f7fd237a0800000000000000
+      internalID: -6398806383646561206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_89
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 2
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1b9cb86ac87c5e0800000000000000
+      internalID: -1889386871720922692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_90
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 2
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29232300e057d0880800000000000000
+      internalID: -8643123406860832110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_91
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 2
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c66b563df398cb0800000000000000
+      internalID: -4861284145592636264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_92
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a2f5b2b5221fb50800000000000000
+      internalID: 6625114301803735704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_93
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd7adedd5a1160a0800000000000000
+      internalID: -6890196964427006471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_94
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87ef3da68337c880800000000000000
+      internalID: -8590841110660651122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_95
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90862737de1ed1b0800000000000000
+      internalID: -5630028574474469217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_96
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c06fb3033c4a2e0800000000000000
+      internalID: -2115351313025463272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_97
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdc90c61c0735570800000000000000
+      internalID: 8454224901548133873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_98
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eaa19c3bfa30c70800000000000000
+      internalID: 8936179272341171765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_99
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b926640f5b10f9e0800000000000000
+      internalID: -1589740573552137802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_100
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0696f92d3390becb0800000000000000
+      internalID: -4833759656870450848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_101
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40e68cb96f276060800000000000000
+      internalID: 6946573081423306828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_102
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c976890ed9b324690800000000000000
+      internalID: -7619462070293469284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_103
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3abb37808e001f80800000000000000
+      internalID: -8137988581471045060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_104
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eddd65886fefb40800000000000000
+      internalID: 5476085262362467858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_105
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181978794387310a0800000000000000
+      internalID: -6912048835807702655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_106
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61faa25d83048d7e0800000000000000
+      internalID: -1740570643140006122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_107
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb880e846ec43dc00800000000000000
+      internalID: 924166900489947324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_108
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2659fb7bf3c2d70800000000000000
+      internalID: 9019654212142064369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_109
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf0d352808525ba0800000000000000
+      internalID: -6101717753125859397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_110
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5d607f04c3ccce0800000000000000
+      internalID: -1383664735789591122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_111
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c7ac3d1c3732990800000000000000
+      internalID: -7411953285402559388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_112
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90147999162dfa80800000000000000
+      internalID: -8431541035977142116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_113
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73992b148f4fa2a0800000000000000
+      internalID: -6724068289830874244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_114
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cafcbff176bbe90800000000000000
+      internalID: -7008895008005706688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_115
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f742f72b32761f0800000000000000
+      internalID: -1051832738423472315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_116
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b3373841fa31ee0800000000000000
+      internalID: -1291496165485626561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_117
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 2
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f36f75c158329d90800000000000000
+      internalID: -7092544539298143240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_118
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff96f5b897efb8b10800000000000000
+      internalID: 1984959858769619455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_119
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42b1ffbc124257e0800000000000000
+      internalID: -1778286211611119028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_120
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205808756286dee40800000000000000
+      internalID: 5687316418324890882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_121
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c869c21c36eba60800000000000000
+      internalID: 7691694894923287688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_122
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910913eb11f9ad390800000000000000
+      internalID: -7792741306657042407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_123
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417b9145b482d4c00800000000000000
+      internalID: 886409005660485396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_124
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad80862f00d004fe0800000000000000
+      internalID: -1206950402417227558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_125
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7044da0ce388ea0800000000000000
+      internalID: -5870373117015881741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_126
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726675bec318f7980800000000000000
+      internalID: -8538964269824776665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_127
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ab1fb3c5f968650800000000000000
+      internalID: 6234845952632535689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_128
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45260408a6614fc0800000000000000
+      internalID: -3512413362564225716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_129
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3f416192f0a8c20800000000000000
+      internalID: 3209394353593447328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_130
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8f3a56d3700d5d0800000000000000
+      internalID: -3039921788195440462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_131
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aed24a7bda13a290800000000000000
+      internalID: -7880425393016873303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_132
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32423990b32e64ca0800000000000000
+      internalID: -6032885907624614877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_133
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6b409acd20de760800000000000000
+      internalID: 7488644902138722000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_134
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f9ca828bfee0350800000000000000
+      internalID: 5984984529057390415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_135
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdc87fa43e7d9280800000000000000
+      internalID: -9034926512688017982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_136
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b30c1f0d1e41dc0800000000000000
+      internalID: -3669059508874757250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_137
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3a18a4763414990800000000000000
+      internalID: -7403562201509682188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_138
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dc790a53256f270800000000000000
+      internalID: 8283898954875653445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_139
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72dbcb9f4f9abb00800000000000000
+      internalID: 845163044350448253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_140
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1f460e76ecc81a0800000000000000
+      internalID: -6805837991321996819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_141
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 0
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deabb687f795384c0800000000000000
+      internalID: -4286484016310535443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_142
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a421b7de634c0970800000000000000
+      internalID: 8722420721653982370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_143
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa1a9e9281cc2650800000000000000
+      internalID: 6209550752987880102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matchup-pro-v1.1_144
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95654d23c39c9110800000000000000
+      internalID: 1269051661499065758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

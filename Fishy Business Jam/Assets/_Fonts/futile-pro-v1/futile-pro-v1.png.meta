@@ -1,0 +1,3780 @@
+fileFormatVersion: 2
+guid: dc4ceccfc91717845bb4e7390fa72275
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7231605767236793054
+    second: futile-pro-v1_0
+  - first:
+      213: 7787754882928062401
+    second: futile-pro-v1_1
+  - first:
+      213: -2285673849382462596
+    second: futile-pro-v1_2
+  - first:
+      213: 410511225784418381
+    second: futile-pro-v1_3
+  - first:
+      213: -1552815498856134868
+    second: futile-pro-v1_4
+  - first:
+      213: 4137125695273238962
+    second: futile-pro-v1_5
+  - first:
+      213: 848745255979518820
+    second: futile-pro-v1_6
+  - first:
+      213: 5677302161549869561
+    second: futile-pro-v1_7
+  - first:
+      213: -6436643000385284529
+    second: futile-pro-v1_8
+  - first:
+      213: -6567145120561173592
+    second: futile-pro-v1_9
+  - first:
+      213: 6898096724218464018
+    second: futile-pro-v1_10
+  - first:
+      213: 2545991573566900015
+    second: futile-pro-v1_11
+  - first:
+      213: -5596417077146130123
+    second: futile-pro-v1_12
+  - first:
+      213: 3115098814562363819
+    second: futile-pro-v1_13
+  - first:
+      213: -3234198193796229185
+    second: futile-pro-v1_14
+  - first:
+      213: -5189268512859229259
+    second: futile-pro-v1_15
+  - first:
+      213: 7077060334380870699
+    second: futile-pro-v1_16
+  - first:
+      213: 8073210378458891646
+    second: futile-pro-v1_17
+  - first:
+      213: 1633177543706961573
+    second: futile-pro-v1_18
+  - first:
+      213: -5992126737178011577
+    second: futile-pro-v1_19
+  - first:
+      213: 410757639386987134
+    second: futile-pro-v1_20
+  - first:
+      213: 5250153672140839310
+    second: futile-pro-v1_21
+  - first:
+      213: 9173945269378502606
+    second: futile-pro-v1_22
+  - first:
+      213: 8972862247895548188
+    second: futile-pro-v1_23
+  - first:
+      213: -8868364826869512558
+    second: futile-pro-v1_24
+  - first:
+      213: -766786511237515732
+    second: futile-pro-v1_25
+  - first:
+      213: 3527404118982104999
+    second: futile-pro-v1_26
+  - first:
+      213: -8505728915347164190
+    second: futile-pro-v1_27
+  - first:
+      213: -3374871689533561518
+    second: futile-pro-v1_28
+  - first:
+      213: -5626056581315207541
+    second: futile-pro-v1_29
+  - first:
+      213: -355834613336550252
+    second: futile-pro-v1_30
+  - first:
+      213: -8726488941297188685
+    second: futile-pro-v1_31
+  - first:
+      213: -9209567230226647999
+    second: futile-pro-v1_32
+  - first:
+      213: -3711603149583627734
+    second: futile-pro-v1_33
+  - first:
+      213: 2189618790384916682
+    second: futile-pro-v1_34
+  - first:
+      213: -8504087028534397272
+    second: futile-pro-v1_35
+  - first:
+      213: 522315973602986366
+    second: futile-pro-v1_36
+  - first:
+      213: -1858986623091364477
+    second: futile-pro-v1_37
+  - first:
+      213: 5133904380156688320
+    second: futile-pro-v1_38
+  - first:
+      213: -7841770365324955489
+    second: futile-pro-v1_39
+  - first:
+      213: 9041050303949126399
+    second: futile-pro-v1_40
+  - first:
+      213: -6284632764039174250
+    second: futile-pro-v1_41
+  - first:
+      213: 5554875887642651740
+    second: futile-pro-v1_42
+  - first:
+      213: 7598280730287945824
+    second: futile-pro-v1_43
+  - first:
+      213: -581184834621598148
+    second: futile-pro-v1_44
+  - first:
+      213: -427719251600384260
+    second: futile-pro-v1_45
+  - first:
+      213: 5786237925758106218
+    second: futile-pro-v1_46
+  - first:
+      213: 189346844344786283
+    second: futile-pro-v1_47
+  - first:
+      213: 2233178015917029522
+    second: futile-pro-v1_48
+  - first:
+      213: -850555163664167234
+    second: futile-pro-v1_49
+  - first:
+      213: 8298172798966494868
+    second: futile-pro-v1_50
+  - first:
+      213: -6334096651039464154
+    second: futile-pro-v1_51
+  - first:
+      213: 7668202455540731950
+    second: futile-pro-v1_52
+  - first:
+      213: 386069404820979845
+    second: futile-pro-v1_53
+  - first:
+      213: 1144661942224744810
+    second: futile-pro-v1_54
+  - first:
+      213: -4471390141199722842
+    second: futile-pro-v1_55
+  - first:
+      213: -5211817470003366891
+    second: futile-pro-v1_56
+  - first:
+      213: 7312646928367432703
+    second: futile-pro-v1_57
+  - first:
+      213: 1979625422308786424
+    second: futile-pro-v1_58
+  - first:
+      213: 4602697709788994839
+    second: futile-pro-v1_59
+  - first:
+      213: -6767144184186402280
+    second: futile-pro-v1_60
+  - first:
+      213: -6536734344034919741
+    second: futile-pro-v1_61
+  - first:
+      213: 6429134653501642775
+    second: futile-pro-v1_62
+  - first:
+      213: -6072400330558222191
+    second: futile-pro-v1_63
+  - first:
+      213: -1962707466902549996
+    second: futile-pro-v1_64
+  - first:
+      213: -192512400638835553
+    second: futile-pro-v1_65
+  - first:
+      213: -1393611795467594748
+    second: futile-pro-v1_66
+  - first:
+      213: 2791610332658895813
+    second: futile-pro-v1_67
+  - first:
+      213: 5659075885349033731
+    second: futile-pro-v1_68
+  - first:
+      213: -2421239805620548392
+    second: futile-pro-v1_69
+  - first:
+      213: -8586912088686415682
+    second: futile-pro-v1_70
+  - first:
+      213: 945931578553101884
+    second: futile-pro-v1_71
+  - first:
+      213: -8418310508972976313
+    second: futile-pro-v1_72
+  - first:
+      213: 8927430104150701825
+    second: futile-pro-v1_73
+  - first:
+      213: -5305309888924010372
+    second: futile-pro-v1_74
+  - first:
+      213: -9130364377418868344
+    second: futile-pro-v1_75
+  - first:
+      213: 4762531356645006689
+    second: futile-pro-v1_76
+  - first:
+      213: 7120509087905544646
+    second: futile-pro-v1_77
+  - first:
+      213: 3400075706214651271
+    second: futile-pro-v1_78
+  - first:
+      213: 650822152475460229
+    second: futile-pro-v1_79
+  - first:
+      213: -4713237289223062219
+    second: futile-pro-v1_80
+  - first:
+      213: -1754192597135425249
+    second: futile-pro-v1_81
+  - first:
+      213: -2047350501344568096
+    second: futile-pro-v1_82
+  - first:
+      213: 5724855010789414659
+    second: futile-pro-v1_83
+  - first:
+      213: 7281543837712180911
+    second: futile-pro-v1_84
+  - first:
+      213: 4024197407485257359
+    second: futile-pro-v1_85
+  - first:
+      213: -658183264642862318
+    second: futile-pro-v1_86
+  - first:
+      213: -520145956478117866
+    second: futile-pro-v1_87
+  - first:
+      213: 3866530491113293148
+    second: futile-pro-v1_88
+  - first:
+      213: -2691270921438668255
+    second: futile-pro-v1_89
+  - first:
+      213: 5330080755653274422
+    second: futile-pro-v1_90
+  - first:
+      213: -1149021175021988030
+    second: futile-pro-v1_91
+  - first:
+      213: -2554456189211198965
+    second: futile-pro-v1_92
+  - first:
+      213: 3278720709768341659
+    second: futile-pro-v1_93
+  - first:
+      213: -1230791174940989138
+    second: futile-pro-v1_94
+  - first:
+      213: 6502066376756279592
+    second: futile-pro-v1_95
+  - first:
+      213: -8082432666966024026
+    second: futile-pro-v1_96
+  - first:
+      213: -6070715613624161695
+    second: futile-pro-v1_97
+  - first:
+      213: -798653115235610368
+    second: futile-pro-v1_98
+  - first:
+      213: -2991829147019990765
+    second: futile-pro-v1_99
+  - first:
+      213: -1537601329839378212
+    second: futile-pro-v1_100
+  - first:
+      213: 2924939753086081149
+    second: futile-pro-v1_101
+  - first:
+      213: 6496155583099607892
+    second: futile-pro-v1_102
+  - first:
+      213: -7322352196872251117
+    second: futile-pro-v1_103
+  - first:
+      213: -7804529490322655991
+    second: futile-pro-v1_104
+  - first:
+      213: -2943970265122980231
+    second: futile-pro-v1_105
+  - first:
+      213: -3403356908573977828
+    second: futile-pro-v1_106
+  - first:
+      213: 2541926915786559309
+    second: futile-pro-v1_107
+  - first:
+      213: 7626220376273860969
+    second: futile-pro-v1_108
+  - first:
+      213: 6420173932407041479
+    second: futile-pro-v1_109
+  - first:
+      213: -1692803667450337457
+    second: futile-pro-v1_110
+  - first:
+      213: -4582498038613993949
+    second: futile-pro-v1_111
+  - first:
+      213: -4660617298650087432
+    second: futile-pro-v1_112
+  - first:
+      213: -5944409561478149168
+    second: futile-pro-v1_113
+  - first:
+      213: -5428010988142873180
+    second: futile-pro-v1_114
+  - first:
+      213: 7430338262318396261
+    second: futile-pro-v1_115
+  - first:
+      213: -1888551254990183163
+    second: futile-pro-v1_116
+  - first:
+      213: -7619921565645867996
+    second: futile-pro-v1_117
+  - first:
+      213: -2944295884597276751
+    second: futile-pro-v1_118
+  - first:
+      213: 9170066338857911012
+    second: futile-pro-v1_119
+  - first:
+      213: 4783771151081754487
+    second: futile-pro-v1_120
+  - first:
+      213: 5538122373667599855
+    second: futile-pro-v1_121
+  - first:
+      213: 7362260152985124201
+    second: futile-pro-v1_122
+  - first:
+      213: -7310830506465242211
+    second: futile-pro-v1_123
+  - first:
+      213: 3246523905953816339
+    second: futile-pro-v1_124
+  - first:
+      213: -7343401898797574548
+    second: futile-pro-v1_125
+  - first:
+      213: -2546579142599168852
+    second: futile-pro-v1_126
+  - first:
+      213: 949520975472924437
+    second: futile-pro-v1_127
+  - first:
+      213: 5707577353828173528
+    second: futile-pro-v1_128
+  - first:
+      213: 5959367243761933008
+    second: futile-pro-v1_129
+  - first:
+      213: 4751415979270888779
+    second: futile-pro-v1_130
+  - first:
+      213: -2627403339507389501
+    second: futile-pro-v1_131
+  - first:
+      213: 5096121088502232322
+    second: futile-pro-v1_132
+  - first:
+      213: 4588798308106526398
+    second: futile-pro-v1_133
+  - first:
+      213: -8986623027179855711
+    second: futile-pro-v1_134
+  - first:
+      213: -7404236069378719357
+    second: futile-pro-v1_135
+  - first:
+      213: -8236547848080591885
+    second: futile-pro-v1_136
+  - first:
+      213: -4990926866313933205
+    second: futile-pro-v1_137
+  - first:
+      213: -8416346066028551567
+    second: futile-pro-v1_138
+  - first:
+      213: 6681746125427491482
+    second: futile-pro-v1_139
+  - first:
+      213: 826839002209858578
+    second: futile-pro-v1_140
+  - first:
+      213: 5037631800325457855
+    second: futile-pro-v1_141
+  - first:
+      213: -1862293118063366890
+    second: futile-pro-v1_142
+  - first:
+      213: 4660681309952621914
+    second: futile-pro-v1_143
+  - first:
+      213: -5393340698515409734
+    second: futile-pro-v1_144
+  - first:
+      213: 203484294608923670
+    second: futile-pro-v1_145
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: futile-pro-v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2b0df6123db5460800000000000000
+      internalID: 7231605767236793054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfadb20ec9a31c60800000000000000
+      internalID: 7787754882928062401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b98277eb7a740e0800000000000000
+      internalID: -2285673849382462596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40c03de8cd62b500800000000000000
+      internalID: 410511225784418381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2785fce78a437ae0800000000000000
+      internalID: -1552815498856134868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b107e186e50a6930800000000000000
+      internalID: 4137125695273238962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b057f305957cb00800000000000000
+      internalID: 848745255979518820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1ccbd7c34d9ce40800000000000000
+      internalID: 5677302161549869561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46d7004b437ca6a0800000000000000
+      internalID: -6436643000385284529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abe28c9e40dcd4a0800000000000000
+      internalID: -6567145120561173592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217c3594c66fabf50800000000000000
+      internalID: 6898096724218464018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27c79fc8dd255320800000000000000
+      internalID: 2545991573566900015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53966c5c1588552b0800000000000000
+      internalID: -5596417077146130123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9ea3a0edd0b3b20800000000000000
+      internalID: 3115098814562363819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7d095d0e1dd13d0800000000000000
+      internalID: -3234198193796229185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_15
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3f7ee08c30cf7b0800000000000000
+      internalID: -5189268512859229259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c67c4d0e4c63260800000000000000
+      internalID: 7077060334380870699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_17
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e750a05c01ec90070800000000000000
+      internalID: 8073210378458891646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a66cc3b2563aa610800000000000000
+      internalID: 1633177543706961573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748526dea70b7dca0800000000000000
+      internalID: -5992126737178011577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a707095ed43b500800000000000000
+      internalID: 410757639386987134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_21
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89da24c2fa4cd840800000000000000
+      internalID: 5250153672140839310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf4e2aed96605f70800000000000000
+      internalID: 9173945269378502606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11c3589ca2068c70800000000000000
+      internalID: 8972862247895548188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_24
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296cfd33d2d3de480800000000000000
+      internalID: -8868364826869512558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_25
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26702b0bb3db55f0800000000000000
+      internalID: -766786511237515732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_26
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a79d237b5bd3f030800000000000000
+      internalID: 3527404118982104999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3b6f4ed9495f980800000000000000
+      internalID: -8505728915347164190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_28
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25564d6441c0a21d0800000000000000
+      internalID: -3374871689533561518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_29
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e5570f85b3ce1b0800000000000000
+      internalID: -5626056581315207541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4945941fd42df0bf0800000000000000
+      internalID: -355834613336550252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_31
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b04b95fa8845e680800000000000000
+      internalID: -8726488941297188685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_32
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1443343066b013080800000000000000
+      internalID: -9209567230226647999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_33
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ac8d1b99cbd7cc0800000000000000
+      internalID: -3711603149583627734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_34
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8d96250b6136e10800000000000000
+      internalID: 2189618790384916682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_35
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6333577e96bf980800000000000000
+      internalID: -8504087028534397272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_36
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 2
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e794e135c93af3700800000000000000
+      internalID: 522315973602986366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_37
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38daf60048d8336e0800000000000000
+      internalID: -1858986623091364477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7bf0a45da4f3740800000000000000
+      internalID: 5133904380156688320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_39
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90fe94766f6c2390800000000000000
+      internalID: -7841770365324955489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa33539953487d70800000000000000
+      internalID: 9041050303949126399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_41
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697e9ab6ccf78c8a0800000000000000
+      internalID: -6284632764039174250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_42
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ca2565032e61d40800000000000000
+      internalID: 5554875887642651740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_43
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06832881114827960800000000000000
+      internalID: 7598280730287945824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_44
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36198fd8773fe7f0800000000000000
+      internalID: -581184834621598148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_45
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe53c85b9f601af0800000000000000
+      internalID: -427719251600384260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_46
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a74b69cb8dc4050800000000000000
+      internalID: 5786237925758106218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_47
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d1384a3f1b0a200800000000000000
+      internalID: 189346844344786283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_48
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29832f6d297ddfe10800000000000000
+      internalID: 2233178015917029522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_49
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe4ce7c5983234f0800000000000000
+      internalID: -850555163664167234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_50
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496f43fe138092370800000000000000
+      internalID: 8298172798966494868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_51
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6252dc5c7a4c818a0800000000000000
+      internalID: -6334096651039464154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_52
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e209844618dea6a60800000000000000
+      internalID: 7668202455540731950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_53
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580400504189b5500800000000000000
+      internalID: 386069404820979845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_54
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61f636c8f7a2ef00800000000000000
+      internalID: 1144661942224744810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_55
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a65b956b5e62f1c0800000000000000
+      internalID: -4471390141199722842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_56
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514364adf97eba7b0800000000000000
+      internalID: -5211817470003366891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_57
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3313523adbb7560800000000000000
+      internalID: 7312646928367432703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_58
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f04c0545da097b10800000000000000
+      internalID: 1979625422308786424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_59
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d1a705e2110ef30800000000000000
+      internalID: 4602697709788994839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_60
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a08b5e7364612a0800000000000000
+      internalID: -6767144184186402280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_61
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 6
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cad3b84fbad845a0800000000000000
+      internalID: -6536734344034919741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_62
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 3
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7189e1387efd83950800000000000000
+      internalID: 6429134653501642775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_63
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190dc1382108abba0800000000000000
+      internalID: -6072400330558222191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_64
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a444d25ff03c4e0800000000000000
+      internalID: -1962707466902549996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_65
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f948019ddfe045df0800000000000000
+      internalID: -192512400638835553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_66
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4041c58a475e8ace0800000000000000
+      internalID: -1393611795467594748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_67
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb81759ecacdb620800000000000000
+      internalID: 2791610332658895813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_68
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307553fd883198e40800000000000000
+      internalID: 5659075885349033731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_69
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc83fd9937066ed0800000000000000
+      internalID: -2421239805620548392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_70
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0b65463f825d880800000000000000
+      internalID: -8586912088686415682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_71
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e6b7942cf902d00800000000000000
+      internalID: 945931578553101884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_72
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7475ab7b1372c2b80800000000000000
+      internalID: -8418310508972976313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_73
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 9
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107f703516a94eb70800000000000000
+      internalID: 8927430104150701825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_74
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 4
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c783157c3c0cf56b0800000000000000
+      internalID: -5305309888924010372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_75
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889511639fd6a4180800000000000000
+      internalID: -9130364377418868344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_76
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d1c703909e71240800000000000000
+      internalID: 4762531356645006689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_77
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9fc841a4121d260800000000000000
+      internalID: 7120509087905544646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_78
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7851c5627de7f2f20800000000000000
+      internalID: 3400075706214651271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_79
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582414aac4f280900800000000000000
+      internalID: 650822152475460229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_80
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53dfbb148a7379eb0800000000000000
+      internalID: -4713237289223062219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_81
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 4
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f118f14802bd7a7e0800000000000000
+      internalID: -1754192597135425249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_82
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 4
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec93acf0995693e0800000000000000
+      internalID: -2047350501344568096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_83
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307d7bcfc45c27f40800000000000000
+      internalID: 5724855010789414659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_84
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6e4478a8d3d0560800000000000000
+      internalID: 7281543837712180911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_85
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86e4339832d8d730800000000000000
+      internalID: 4024197407485257359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_86
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213fad9dec9add6f0800000000000000
+      internalID: -658183264642862318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_87
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61814c8220218c8f0800000000000000
+      internalID: -520145956478117866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_88
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c554604fefca8a530800000000000000
+      internalID: 3866530491113293148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_89
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a5f4d1b5fa6aad0800000000000000
+      internalID: -2691270921438668255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_90
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bebd0153048f940800000000000000
+      internalID: 5330080755653274422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_91
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247996f345bdd00f0800000000000000
+      internalID: -1149021175021988030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_92
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ab4c741afbc8cd0800000000000000
+      internalID: -2554456189211198965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_93
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9865773d1b508d20800000000000000
+      internalID: 3278720709768341659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_94
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29e4f882f95beee0800000000000000
+      internalID: -1230791174940989138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_95
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829b1949beafb3a50800000000000000
+      internalID: 6502066376756279592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_96
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a02a7cdf4e65df80800000000000000
+      internalID: -8082432666966024026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_97
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 2
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16aa38d305c70cba0800000000000000
+      internalID: -6070715613624161695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_98
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0015f9f193d9ae4f0800000000000000
+      internalID: -798653115235610368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_99
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 2
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a63ffd33ea76d0800000000000000
+      internalID: -2991829147019990765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_100
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd071c0bcb759aae0800000000000000
+      internalID: -1537601329839378212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_101
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d785d1c5539779820800000000000000
+      internalID: 2924939753086081149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_102
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b9250b51bf62a50800000000000000
+      internalID: 6496155583099607892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_103
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319d021f877c16a90800000000000000
+      internalID: -7322352196872251117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_104
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905f14a57cdb0b390800000000000000
+      internalID: -7804529490322655991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_105
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e380644aae427d0800000000000000
+      internalID: -2943970265122980231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_106
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1393946ce8d4c0d0800000000000000
+      internalID: -3403356908573977828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_107
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f467cef0db64320800000000000000
+      internalID: 2541926915786559309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_108
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96936aad607c5d960800000000000000
+      internalID: 7626220376273860969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_109
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd285d0d2a091950800000000000000
+      internalID: 6420173932407041479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_110
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47e4278804f188e0800000000000000
+      internalID: -1692803667450337457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_111
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3261d702052b760c0800000000000000
+      internalID: -4582498038613993949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_112
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffbbe78249225fb0800000000000000
+      internalID: -4660617298650087432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_113
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbc8a8aff6318da0800000000000000
+      internalID: -5944409561478149168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_114
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5b3ded3c4dba4b0800000000000000
+      internalID: -5428010988142873180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_115
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5633b7e284ddd1760800000000000000
+      internalID: 7430338262318396261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_116
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505213ab3a48ac5e0800000000000000
+      internalID: -1888551254990183163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_117
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424f65745b9904690800000000000000
+      internalID: -7619921565645867996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_118
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf4fe41e72c327d0800000000000000
+      internalID: -2944295884597276751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_119
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2846600ce924f70800000000000000
+      internalID: 9170066338857911012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_120
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f4df2348e536240800000000000000
+      internalID: 4783771151081754487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_121
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5b915e4fc5bdc40800000000000000
+      internalID: 5538122373667599855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_122
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96df0ba2a900c2660800000000000000
+      internalID: 7362260152985124201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_123
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93dc098366ba8a90800000000000000
+      internalID: -7310830506465242211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_124
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fd039aa48fd0d20800000000000000
+      internalID: 3246523905953816339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_125
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66dd3b41eef61a90800000000000000
+      internalID: -7343401898797574548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_126
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac25fc13cbb8acd0800000000000000
+      internalID: -2546579142599168852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_127
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51798d1eb406d2d00800000000000000
+      internalID: 949520975472924437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_128
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 2
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d60efefc53653f40800000000000000
+      internalID: 5707577353828173528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_129
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da57822fece3b250800000000000000
+      internalID: 5959367243761933008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_130
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d5e88b8ab60f140800000000000000
+      internalID: 4751415979270888779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_131
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbacf25596998bd0800000000000000
+      internalID: -2627403339507389501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_132
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2057d8c212f09b640800000000000000
+      internalID: 5096121088502232322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_133
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe5a9cafbfaeaf30800000000000000
+      internalID: 4588798308106526398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_134
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0699e48f9194380800000000000000
+      internalID: -8986623027179855711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_135
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3810c83368ede3990800000000000000
+      internalID: -7404236069378719357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_136
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 2
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3f5ab0f57e1bd80800000000000000
+      internalID: -8236547848080591885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_137
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e8769457aacbab0800000000000000
+      internalID: -4990926866313933205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_138
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172ac9b38d1233b80800000000000000
+      internalID: -8416346066028551567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_139
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92c27d13b45abc50800000000000000
+      internalID: 6681746125427491482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_140
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214382511b5897b00800000000000000
+      internalID: 826839002209858578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_141
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb74c9f8e6349e540800000000000000
+      internalID: 5037631800325457855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_142
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dad26a64ec726e0800000000000000
+      internalID: -1862293118063366890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_143
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 2
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d370345f01ea040800000000000000
+      internalID: 4660681309952621914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_144
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4f458b5310725b0800000000000000
+      internalID: -5393340698515409734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: futile-pro-v1_145
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c298943ebe2d200800000000000000
+      internalID: 203484294608923670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

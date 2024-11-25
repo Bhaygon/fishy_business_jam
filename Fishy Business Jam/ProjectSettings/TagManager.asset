@@ -14,14 +14,14 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - EnemyGround
   - EnemyBullet
   - PlayerBullet
   - Enemy
   - Ground
   - WaterRegion
   - Player
-  - 
+  - PlayerFeet
   - 
   - 
   - 

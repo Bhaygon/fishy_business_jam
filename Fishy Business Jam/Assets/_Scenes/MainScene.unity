@@ -14294,6 +14294,7 @@ GameObject:
   - component: {fileID: 1464063144}
   - component: {fileID: 1464063146}
   - component: {fileID: 1464063145}
+  - component: {fileID: 1464063147}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -14334,7 +14335,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -14364,7 +14365,7 @@ MonoBehaviour:
   Rb: {fileID: 1464063145}
   Collider: {fileID: 1034167682}
   Collider2: {fileID: 26354725}
-  Animator: {fileID: 0}
+  Animator: {fileID: 1464063147}
   BodyTransform: {fileID: 1464063144}
   ObstacleLayer:
     serializedVersion: 2
@@ -14372,20 +14373,45 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 4096
-  ImpactLayer:
+  PlayerLayer:
     serializedVersion: 2
-    m_Bits: 18432
-  _speed: 7
+    m_Bits: 16384
+  _speed: 700
   _obstacleDetectRange: 6
   _groundDetectionRayLength: 0.2
+  _initializeAttackTimeMax: 1
   _damage: 1
-  _attackStart: 1
-  _attackCooldown: 5
+  _attackCooldownTimeMax: 10
+  _lookForAttackRange: 8
   _attackSpeedMultiplier: 4
   _hitForce: 25
+  _onHitEffect: {fileID: 6089995940071600226, guid: d3cf139e4fa110741be05fa0aa58bbb1, type: 3}
+  _onHitEffectStrong: {fileID: 6089995940071600226, guid: 3cab49163f80f9249a08b8f0200917ed, type: 3}
   _health: 150
   _onDeathEffect: {fileID: 6089995940071600226, guid: 21ba9f031c61fc442b6eff3506a89689, type: 3}
   Master: {fileID: 1492848232}
+--- !u!95 &1464063147
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464063143}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b63c5a86b0c35ff4d8a687c436aba4be, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1472923768
 GameObject:
   m_ObjectHideFlags: 0

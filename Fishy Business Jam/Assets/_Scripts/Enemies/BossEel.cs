@@ -12,18 +12,23 @@ public class BossEel : MonoBehaviour, IDamageable
 
     [Header("Variables")] [SerializeField] private LayerMask ObstacleLayer;
     [SerializeField] private LayerMask GroundLayer;
-    [SerializeField] private LayerMask ImpactLayer;
+    [SerializeField] private LayerMask PlayerLayer;
     [SerializeField] private float _speed;
     [SerializeField] private float _obstacleDetectRange;
     [SerializeField] private float _groundDetectionRayLength;
 
     private bool _isAttacking = false;
+    [SerializeField] private float _initializeAttackTimeMax;
+    private float _initializeAttackTimer;
     [SerializeField] private int _damage;
-    [SerializeField] float _attackStart;
-    [SerializeField] float _attackCooldown;
+    float _attackDurationTimer;
+    [SerializeField] float _attackCooldownTimeMax = 5;
+    [SerializeField] private float _lookForAttackRange;
     [SerializeField] private int _attackSpeedMultiplier;
     [SerializeField] private float _hitForce;
-    private float _attackCooldownTimer;
+    [SerializeField] private GameObject _onHitEffect;
+    [SerializeField] private GameObject _onHitEffectStrong;
+    private float _attackCooldownTimer = 1;
 
     private float _hitCooldownMax = 0.5f;
     private float _hitCooldownTimer;
@@ -42,20 +47,37 @@ public class BossEel : MonoBehaviour, IDamageable
     {
         Cooldowns();
         AttackCheck();
-        if (!_isAttacking)
-        {
-            MoveCheck();
-            CheckIsGrounded();
-            CheckTurn();
-        }
+        MoveCheck();
+        CheckIsGrounded();
+        CheckTurn();
     }
 
     private void AttackCheck()
     {
-        if (_hitCooldownTimer < 0)
+        _attackDurationTimer -= Time.fixedDeltaTime;
+        
+        if (!_isAttacking && _attackCooldownTimer < 0) // Se nao esta atacando e nao esta no cooldown
         {
-            RaycastHit2D boxHit = Physics2D.BoxCast(transform.position + new Vector3(0f, -1f), Collider.bounds.size, 0f, Vector2.down, 0,
-                ImpactLayer);
+            RaycastHit2D attackHit = Physics2D.Raycast(BodyTransform.position + new Vector3(0f, -1f), _isFacingRight ? Vector2.right : Vector2.left, _lookForAttackRange,
+                PlayerLayer);
+            if (attackHit.collider)
+            {
+                print("see player");
+                StartAttacking();
+            }
+        }
+        
+        if (_isAttacking && _attackDurationTimer < 0) // Duracao do ataque
+        {
+            _isAttacking = false;
+            Animator.SetBool("Attack", false);
+            _attackCooldownTimer = _attackCooldownTimeMax;
+        }
+        
+        if (_hitCooldownTimer < 0 && _initializeAttackTimer < 0)
+        {
+            RaycastHit2D boxHit = Physics2D.BoxCast(transform.position + new Vector3(0f, -1f), Collider.bounds.size * 1.1f, 0f, Vector2.down, 0,
+                PlayerLayer);
             if (boxHit.collider)
             {
                 Player target = boxHit.collider.GetComponentInParent<Player>();
@@ -63,6 +85,7 @@ public class BossEel : MonoBehaviour, IDamageable
                 {
                     _hitCooldownTimer = _hitCooldownMax;
                     target.ReceiveDamage(_damage * (_isAttacking ? _attackSpeedMultiplier : 1));
+                    Instantiate(_isAttacking ? _onHitEffectStrong : _onHitEffect, boxHit.collider.transform.position, Quaternion.identity);
                     target.PushPlayer(_hitForce);
                 }
             }
@@ -71,15 +94,31 @@ public class BossEel : MonoBehaviour, IDamageable
 
     private void Cooldowns()
     {
+        _attackCooldownTimer -= Time.fixedDeltaTime;
         _turnCooldownTimer -= Time.fixedDeltaTime;
         _hitCooldownTimer -= Time.fixedDeltaTime;
+        _initializeAttackTimer -= Time.fixedDeltaTime;
     }
 
     private void MoveCheck()
     {
-        //Vector2 moveHorizontal = (_isFacingRight ? Vector2.right : Vector2.left) * (_speed * Time.deltaTime);
-        //transform.Translate(moveHorizontal);
-        Rb.AddForce((_isFacingRight ? Vector2.right : Vector2.left) * (_speed * Time.fixedDeltaTime), ForceMode2D.Impulse);
+        if (_initializeAttackTimer < 0) // Impede de mover ao comecar o ataque
+        {
+            Rb.AddForce((_isFacingRight ? Vector2.right : Vector2.left) * ((_speed * (_isAttacking ? _attackSpeedMultiplier : 1)) * Time.fixedDeltaTime), ForceMode2D.Impulse);
+        }
+        else
+        {
+            Rb.linearVelocity = Vector2.zero;
+        }
+    }
+
+    private void StartAttacking()
+    {
+        _isAttacking = true;
+        _initializeAttackTimer = _initializeAttackTimeMax;
+        _attackDurationTimer = 3;
+        Animator.SetBool("Attack", true);
+        
     }
 
     private void CheckTurn()

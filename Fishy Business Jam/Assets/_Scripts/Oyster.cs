@@ -22,6 +22,12 @@ public class Oyster : MonoBehaviour
             _collected = true;
             GameManager.Instance.AddPearl();
             _animator.SetBool("Collected", true);
+            
+            Player target = boxHit.collider.GetComponentInParent<Player>();
+            if (target)
+            {
+                target.ReceiveDamage(-3);
+            }
         }
     }
 }

@@ -5196,7 +5196,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.8, y: 0.4}
+  m_Size: {x: 1.2, y: 0.4}
   m_EdgeRadius: 0
 --- !u!1 &3981001670279721234
 GameObject:
@@ -5258,6 +5258,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16384
   Master: {fileID: 4076562700019493177}
+  _scoreGiven: 3
   points:
   - {fileID: 1140429745817248140}
   - {fileID: 1889862147626407851}

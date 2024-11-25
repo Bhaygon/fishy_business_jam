@@ -7,6 +7,7 @@ public class SoundManager : MonoBehaviour
     public AudioClip mainMusic;
     public AudioClip gameOverMusic;
     public AudioClip gotHitTheme;
+    public AudioClip menuMusic;
 
     public void GameOverSound()
     {

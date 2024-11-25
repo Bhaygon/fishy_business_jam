@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             Object.DontDestroyOnLoad(gameObject);
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadSceneAsync(2);
             GetComponent<SoundManager>().StartGameAudio();
         }
 

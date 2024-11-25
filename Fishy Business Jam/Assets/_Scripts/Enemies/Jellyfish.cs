@@ -1,14 +1,20 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Jellyfish : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     [SerializeField] private ParticleSystem particles;
+    [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float cooldown;
     [SerializeField] private int damage;
+    [SerializeField] private int speed;
     [SerializeField] private LayerMask playerLayer;
     private float _timer;
+    private int _point = 0;
+    private int _direction = 1;
+    [SerializeField] private List<Transform> points;
 
     private void Start()
     {
@@ -17,6 +23,23 @@ public class Jellyfish : MonoBehaviour
 
     private void Update()
     {
+        if (points.Count > 1)
+        {
+            if (Vector2.Distance(rb.position, points[_point].position) < 0.1f)
+            {
+                _point += _direction;
+                
+                if (_point >= points.Count || _point < 0)
+                {
+                    _direction *= -1;
+                    _point += _direction * 2;
+                }
+                
+                print(_point);
+            }
+            rb.position = Vector2.MoveTowards( rb.position, points[_point].position, Time.deltaTime * speed);
+        }
+        
         _timer -= Time.deltaTime;
         if (_timer <= 0)
         {

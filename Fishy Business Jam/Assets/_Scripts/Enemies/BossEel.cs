@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -9,6 +11,7 @@ public class BossEel : MonoBehaviour, IDamageable
     [SerializeField] private Collider2D Collider, Collider2;
     [SerializeField] private Animator Animator;
     [SerializeField] private Transform BodyTransform;
+    [SerializeField] private GameObject GrenadePrefab;
 
     [Header("Variables")] [SerializeField] private LayerMask ObstacleLayer;
     [SerializeField] private LayerMask GroundLayer;
@@ -28,6 +31,9 @@ public class BossEel : MonoBehaviour, IDamageable
     [SerializeField] private float _hitForce;
     [SerializeField] private GameObject _onHitEffect;
     [SerializeField] private GameObject _onHitEffectStrong;
+
+    [SerializeField] private float _useGrenadeTimeMax = 5;
+    private float _useGrenadeTimer;
     private float _attackCooldownTimer = 1;
 
     private float _hitCooldownMax = 0.5f;
@@ -35,6 +41,7 @@ public class BossEel : MonoBehaviour, IDamageable
 
     [Header("Health")] [SerializeField] private float _health = 150;
     [SerializeField] private GameObject _onDeathEffect;
+    [SerializeField] private GameObject _onDeathEffect2;
     [SerializeField] private GameObject Master;
 
     private bool _isFacingRight;
@@ -56,14 +63,19 @@ public class BossEel : MonoBehaviour, IDamageable
     {
         _attackDurationTimer -= Time.fixedDeltaTime;
         
-        if (!_isAttacking && _attackCooldownTimer < 0) // Se nao esta atacando e nao esta no cooldown
+        if (!_isAttacking) // Se nao esta atacando e nao esta no cooldown
         {
             RaycastHit2D attackHit = Physics2D.Raycast(BodyTransform.position + new Vector3(0f, -1f), _isFacingRight ? Vector2.right : Vector2.left, _lookForAttackRange,
                 PlayerLayer);
-            if (attackHit.collider)
+            if (attackHit.collider && _attackCooldownTimer < 0)
             {
                 print("see player");
                 StartAttacking();
+            }
+            else if (attackHit.collider && _useGrenadeTimer < 0)
+            {
+                _useGrenadeTimer = _useGrenadeTimeMax;
+                StartCoroutine(UseGranade());
             }
         }
         
@@ -92,8 +104,22 @@ public class BossEel : MonoBehaviour, IDamageable
         }
     }
 
+    private IEnumerator UseGranade()
+    {
+        Animator.SetBool("Grenade", true);
+        Rb.linearVelocity = Vector2.zero;
+        yield return new WaitForSeconds(1);
+        for (int i = 0; i < 6; i++)
+        {
+            Instantiate(GrenadePrefab, BodyTransform.position, Quaternion.Euler(0f, 0f, 120f - i * 10f));
+            yield return new WaitForSeconds(0.05f);
+        }
+        Animator.SetBool("Grenade", false);
+    }
+
     private void Cooldowns()
     {
+        _useGrenadeTimer -= Time.fixedDeltaTime;
         _attackCooldownTimer -= Time.fixedDeltaTime;
         _turnCooldownTimer -= Time.fixedDeltaTime;
         _hitCooldownTimer -= Time.fixedDeltaTime;
@@ -184,6 +210,8 @@ public class BossEel : MonoBehaviour, IDamageable
         if (_health <= 0)
         {
             Instantiate(_onDeathEffect, BodyTransform.position, BodyTransform.rotation);
+            Instantiate(_onDeathEffect2, BodyTransform.position, BodyTransform.rotation);
+            GameManager.Instance.BossKilled();
             Master.SetActive(false);
         }
     }

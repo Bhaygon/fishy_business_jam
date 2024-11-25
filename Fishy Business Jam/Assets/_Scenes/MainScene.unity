@@ -204,6 +204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PISTOLSHRIMP (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -568,6 +572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PISTOLSHRIMP (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -590,6 +598,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - DISTORT_ON
   - OFFSETUV_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -682,7 +691,7 @@ Material:
     - _ColorSwapRedLuminosity: 0.5
     - _Contrast: 1
     - _CullingOption: 0
-    - _DistortAmount: 0.5
+    - _DistortAmount: 0.06
     - _DistortTexXSpeed: 5
     - _DistortTexYSpeed: 5
     - _EditorDrawers: 6
@@ -900,17 +909,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 5.089999
       objectReference: {fileID: 0}
+    - target: {fileID: 4036300335009672178, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 56.730003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036300335009672178, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13999861
+      objectReference: {fileID: 0}
     - target: {fileID: 4076562700019493177, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_Name
       value: JellyfishEnemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4076562700019493177, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7804556868281887517, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.05
+      value: 28.98
       objectReference: {fileID: 0}
     - target: {fileID: 7804556868281887517, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.370001
+      value: 10.020002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8311181225246539865, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 45.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 8311181225246539865, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.630003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1219,6 +1248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JellyfishEnemy SideH5
       objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1340,6 +1373,11 @@ Transform:
   - {fileID: 1296339020}
   m_Father: {fileID: 486404823}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &356029087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+  m_PrefabInstance: {fileID: 781838360}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &386691452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1350,11 +1388,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50.009495
+      value: 91.6
       objectReference: {fileID: 0}
     - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.0979376
+      value: -14.84
       objectReference: {fileID: 0}
     - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1392,6 +1430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JellyfishEnemy SideH5 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1420,7 +1462,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &415972818
 Transform:
   m_ObjectHideFlags: 0
@@ -1574,6 +1616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: REPLACER
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7305089186195682564, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
       propertyPath: EnemyPrefab
       value: 
@@ -1640,6 +1686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PISTOLSHRIMP (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1683,6 +1733,7 @@ Transform:
   - {fileID: 1054298286}
   - {fileID: 1635824455}
   - {fileID: 1542063583}
+  - {fileID: 356029087}
   - {fileID: 1953714148}
   - {fileID: 1269796859}
   - {fileID: 139014241}
@@ -1982,7 +2033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3424455567cdf14da7631c3c6585d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedX: 0.01
+  SpeedX: 0.007
   SpeedY: 0.01
   MaxY: 0.18
 --- !u!21 &546048405
@@ -1997,6 +2048,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - GLOW_ON
   - OFFSETUV_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -2106,7 +2158,7 @@ Material:
     - _GhostTransparency: 0
     - _GlitchAmount: 3
     - _GlitchSize: 1
-    - _Glow: 10
+    - _Glow: 0.8
     - _GlowGlobal: 1
     - _GradBlend: 1
     - _GradBoostX: 1.2
@@ -2282,6 +2334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PistolShrimpEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2344,6 +2400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JellyfishEnemy Side
       objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2400,6 +2460,10 @@ PrefabInstance:
     - target: {fileID: 6489588810306796906, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
       propertyPath: m_Name
       value: SPAWNER (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6684402696981214921, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
       propertyPath: enemiesCount
@@ -2916,6 +2980,10 @@ CompositeCollider2D:
       - X: 1470000000
         Y: -60000000
       - X: 1470000000
+        Y: -80000000
+      - X: 1420000000
+        Y: -80000000
+      - X: 1420000000
         Y: -90000000
       - X: 1490000000
         Y: -90000000
@@ -3177,13 +3245,13 @@ CompositeCollider2D:
         Y: 144375008
       - X: 70000000
         Y: 144375008
-    - - X: 1570000000
+    - - X: 1030000000
         Y: 35000000
-      - X: 1440000000
+      - X: 950000000
         Y: 35000000
-      - X: 1440000000
+      - X: 950000000
         Y: 20000000
-      - X: 1570000000
+      - X: 1030000000
         Y: 20000000
     - - X: 1270000000
         Y: 35000000
@@ -3193,13 +3261,13 @@ CompositeCollider2D:
         Y: 20000000
       - X: 1270000000
         Y: 20000000
-    - - X: 1030000000
+    - - X: 1570000000
         Y: 35000000
-      - X: 950000000
+      - X: 1440000000
         Y: 35000000
-      - X: 950000000
+      - X: 1440000000
         Y: 20000000
-      - X: 1030000000
+      - X: 1570000000
         Y: 20000000
     - - X: 720000000
         Y: 30000000
@@ -3241,6 +3309,14 @@ CompositeCollider2D:
         Y: -15625000
       - X: 100000000
         Y: -15625000
+    - - X: 1040000000
+        Y: -130000000
+      - X: 1000000000
+        Y: -130000000
+      - X: 1000000000
+        Y: -140000000
+      - X: 1040000000
+        Y: -140000000
     - - X: 1430000000
         Y: -130000000
       - X: 1390000000
@@ -3256,14 +3332,6 @@ CompositeCollider2D:
       - X: 890000000
         Y: -140000000
       - X: 940000000
-        Y: -140000000
-    - - X: 1040000000
-        Y: -130000000
-      - X: 1000000000
-        Y: -130000000
-      - X: 1000000000
-        Y: -140000000
-      - X: 1040000000
         Y: -140000000
     - - X: 1140000000
         Y: -130000000
@@ -3498,7 +3566,9 @@ CompositeCollider2D:
       - {x: 145, y: -4.5}
       - {x: 145, y: -6}
       - {x: 147, y: -6}
-      - {x: 147, y: -9}
+      - {x: 147, y: -8}
+      - {x: 142, y: -8}
+      - {x: 142, y: -9}
       - {x: 149, y: -9}
       - {x: 149, y: -11}
       - {x: 151, y: -11}
@@ -3629,18 +3699,18 @@ CompositeCollider2D:
       - {x: 4, y: 14.562499}
       - {x: 4, y: 14.437501}
       - {x: 7, y: 14.437501}
-    - - {x: 157, y: 3.5}
-      - {x: 144, y: 3.5}
-      - {x: 144, y: 2}
-      - {x: 157, y: 2}
-    - - {x: 127, y: 3.5}
-      - {x: 115, y: 3.5}
-      - {x: 115, y: 2}
-      - {x: 127, y: 2}
     - - {x: 103, y: 3.5}
       - {x: 95, y: 3.5}
       - {x: 95, y: 2}
       - {x: 103, y: 2}
+    - - {x: 127, y: 3.5}
+      - {x: 115, y: 3.5}
+      - {x: 115, y: 2}
+      - {x: 127, y: 2}
+    - - {x: 157, y: 3.5}
+      - {x: 144, y: 3.5}
+      - {x: 144, y: 2}
+      - {x: 157, y: 2}
     - - {x: 72, y: 3}
       - {x: 69, y: 3}
       - {x: 69, y: 2}
@@ -3661,6 +3731,10 @@ CompositeCollider2D:
       - {x: 7, y: -1.4375}
       - {x: 7, y: -1.5625}
       - {x: 10, y: -1.5625}
+    - - {x: 104, y: -13}
+      - {x: 100, y: -13}
+      - {x: 100, y: -14}
+      - {x: 104, y: -14}
     - - {x: 143, y: -13}
       - {x: 139, y: -13}
       - {x: 139, y: -14}
@@ -3669,10 +3743,6 @@ CompositeCollider2D:
       - {x: 89, y: -13}
       - {x: 89, y: -14}
       - {x: 94, y: -14}
-    - - {x: 104, y: -13}
-      - {x: 100, y: -13}
-      - {x: 100, y: -14}
-      - {x: 104, y: -14}
     - - {x: 114, y: -13}
       - {x: 110, y: -13}
       - {x: 110, y: -14}
@@ -9620,6 +9690,56 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 11
       m_TileSpriteIndex: 11
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 142, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 9
+      m_TileSpriteIndex: 9
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 143, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 10
+      m_TileSpriteIndex: 10
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 144, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 11
+      m_TileSpriteIndex: 11
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 145, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 11
+      m_TileSpriteIndex: 11
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 146, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 9
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -32295,11 +32415,11 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 62bc1e54e6d0b9449bff42cc92e49e08, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: c3ceacc463f7093418464d2e99f7d5ba, type: 2}
-  - m_RefCount: 734
+  - m_RefCount: 736
     m_Data: {fileID: 11400000, guid: f2a39451516e00c4bad419cc21361905, type: 2}
-  - m_RefCount: 528
+  - m_RefCount: 529
     m_Data: {fileID: 11400000, guid: 14d9ea998dcc34642aa05eacc8458d1c, type: 2}
-  - m_RefCount: 626
+  - m_RefCount: 628
     m_Data: {fileID: 11400000, guid: 4271874d0808b0d4f89245cf762091a4, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 145
@@ -32320,14 +32440,14 @@ Tilemap:
     m_Data: {fileID: -1469915569, guid: 870e41c6e4c857540a9a04f5f73c4551, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -521207667, guid: 870e41c6e4c857540a9a04f5f73c4551, type: 3}
-  - m_RefCount: 734
+  - m_RefCount: 736
     m_Data: {fileID: 8692476722875341548, guid: 033d1e92e11e459419eabf352be89ebf, type: 3}
-  - m_RefCount: 528
+  - m_RefCount: 529
     m_Data: {fileID: 560518068, guid: 033d1e92e11e459419eabf352be89ebf, type: 3}
-  - m_RefCount: 626
+  - m_RefCount: 628
     m_Data: {fileID: 1640276392, guid: 033d1e92e11e459419eabf352be89ebf, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 2846
+  - m_RefCount: 2851
     m_Data:
       e00: 1
       e01: 0
@@ -32346,7 +32466,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2846
+  - m_RefCount: 2851
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -32406,7 +32526,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 0000000029a99a8a1156384a8d60c122
@@ -32508,6 +32628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: REPLACER
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32600,6 +32724,10 @@ PrefabInstance:
     - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
       propertyPath: m_Name
       value: PISTOLSHRIMP (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32728,7 +32856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3424455567cdf14da7631c3c6585d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedX: 0.021
+  SpeedX: 0.013
   SpeedY: 0.012
   MaxY: 0.18
 --- !u!21 &729592944
@@ -32743,6 +32871,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - GLOW_ON
   - OFFSETUV_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -33028,6 +33157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: REPLACER (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7305089186195682564, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
       propertyPath: EnemyPrefab
       value: 
@@ -33042,6 +33175,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2269155379166203808, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
   m_PrefabInstance: {fileID: 777795270}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &781838360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 486404823}
+    m_Modifications:
+    - target: {fileID: 960476039321964869, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_Name
+      value: Oyster (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 130.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.3759003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380492297488135728, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12bc1507a7366a2438ea6a2cb2769c97, type: 3}
 --- !u!1001 &816447088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33093,6 +33283,10 @@ PrefabInstance:
     - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
       propertyPath: m_Name
       value: PISTOLSHRIMP (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33160,6 +33354,10 @@ PrefabInstance:
     - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
       propertyPath: m_Name
       value: PistolShrimpEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33288,7 +33486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3424455567cdf14da7631c3c6585d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedX: 0.02
+  SpeedX: 0.009
   SpeedY: 0.011
   MaxY: 0.18
 --- !u!21 &857736382
@@ -33303,6 +33501,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - GLOW_ON
   - OFFSETUV_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -33412,7 +33611,7 @@ Material:
     - _GhostTransparency: 0
     - _GlitchAmount: 3
     - _GlitchSize: 1
-    - _Glow: 10
+    - _Glow: 1
     - _GlowGlobal: 1
     - _GradBlend: 1
     - _GradBoostX: 1.2
@@ -33845,6 +34044,8 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - DISTORT_ON
+  - GLOW_ON
   - OFFSETUV_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -33938,8 +34139,8 @@ Material:
     - _Contrast: 1
     - _CullingOption: 0
     - _DistortAmount: 0.5
-    - _DistortTexXSpeed: 5
-    - _DistortTexYSpeed: 5
+    - _DistortTexXSpeed: 2
+    - _DistortTexYSpeed: 2
     - _EditorDrawers: 6
     - _FadeAmount: -0.1
     - _FadeBurnGlow: 2
@@ -34083,82 +34284,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2269155379166203808, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
   m_PrefabInstance: {fileID: 420120266}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &872510338
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 872510339}
-  - component: {fileID: 872510340}
-  m_Layer: 0
-  m_Name: point (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &872510339
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872510338}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.33, y: 0.45, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1749654949}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &872510340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872510338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ca21bfff9408f44bf12916ef8f4363, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisplayGizmo: 1
-  GizmoType: 2
-  DisplayMode: 0
-  GizmoColor: {r: 1, g: 0.76862746, b: 0, a: 1}
-  PositionMode: 0
-  PositionTexture: {fileID: 0}
-  TextureSize: {x: 50, y: 50}
-  PositionSize: 0.2
-  ColliderRenderType: 0
-  ViewDistance: 200
-  GizmoOffset: {x: 0, y: 0, z: 0}
-  LockX: 0
-  LockedX: 0
-  LockY: 0
-  LockedY: 0
-  LockZ: 0
-  LockedZ: 0
-  DisplayText: 0
-  TextMode: 0
-  TextToDisplay: Some Text
-  TextOffset: {x: 0, y: 0.5, z: 0}
-  TextFontStyle: 0
-  TextSize: 12
-  TextColor: {r: 1, g: 0.76862746, b: 0, a: 1}
-  TextBackgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
-  TextPadding: {x: 5, y: 0, z: 5, w: 0}
-  TextMaxDistance: 14
-  TargetProperty:
-    TargetObject: {fileID: 0}
-    TargetComponent: {fileID: 0}
-    TargetScriptableObject: {fileID: 0}
-    TargetPropertyName: 
 --- !u!1001 &875270318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34210,6 +34335,10 @@ PrefabInstance:
     - target: {fileID: 6489588810306796906, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
       propertyPath: m_Name
       value: SPAWNER (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6684402696981214921, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
       propertyPath: enemiesCount
@@ -34301,17 +34430,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 5.089999
       objectReference: {fileID: 0}
+    - target: {fileID: 4036300335009672178, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 56.730003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036300335009672178, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13999861
+      objectReference: {fileID: 0}
     - target: {fileID: 4076562700019493177, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_Name
       value: JellyfishEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4076562700019493177, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7804556868281887517, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.05
+      value: 28.98
       objectReference: {fileID: 0}
     - target: {fileID: 7804556868281887517, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.370001
+      value: 10.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8311181225246539865, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 45.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 8311181225246539865, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.63
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34495,6 +34644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SPAWNER (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6684402696981214921, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
       propertyPath: enemiesCount
       value: 2
@@ -34565,6 +34718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JellyfishEnemy SideH5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34621,6 +34778,10 @@ PrefabInstance:
     - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
       propertyPath: m_Name
       value: PISTOLSHRIMP (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34683,6 +34844,10 @@ PrefabInstance:
     - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_Name
       value: JellyfishEnemy SideH5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34783,6 +34948,10 @@ PrefabInstance:
     - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
       propertyPath: m_Name
       value: PISTOLSHRIMP (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35271,11 +35440,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.629498
+      value: 59.32
       objectReference: {fileID: 0}
     - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36206222
+      value: 20.69
       objectReference: {fileID: 0}
     - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_LocalPosition.z
@@ -35312,6 +35481,10 @@ PrefabInstance:
     - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_Name
       value: JellyfishEnemy SideH5 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35375,6 +35548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: REPLACER (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7305089186195682564, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
       propertyPath: EnemyPrefab
       value: 
@@ -35407,7 +35584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1356428466
 Transform:
   m_ObjectHideFlags: 0
@@ -35561,6 +35738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: REPLACER
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35622,6 +35803,10 @@ PrefabInstance:
     - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_Name
       value: JellyfishEnemy Side (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35745,7 +35930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3424455567cdf14da7631c3c6585d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedX: 0.008
+  SpeedX: 0.006
   SpeedY: 0.01
   MaxY: 0.18
 --- !u!4 &1492848233 stripped
@@ -35929,6 +36114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PistolShrimpEnemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36095,7 +36284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3424455567cdf14da7631c3c6585d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedX: 0.022
+  SpeedX: 0.011
   SpeedY: 0.012
   MaxY: 0.18
 --- !u!21 &1634210112
@@ -36110,6 +36299,9 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - DISTORT_ON
+  - GLOWTEX_ON
+  - GLOW_ON
   - OFFSETUV_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -36202,9 +36394,9 @@ Material:
     - _ColorSwapRedLuminosity: 0.5
     - _Contrast: 1
     - _CullingOption: 0
-    - _DistortAmount: 0.5
-    - _DistortTexXSpeed: 5
-    - _DistortTexYSpeed: 5
+    - _DistortAmount: 0.13
+    - _DistortTexXSpeed: 2
+    - _DistortTexYSpeed: 2
     - _EditorDrawers: 6
     - _FadeAmount: -0.1
     - _FadeBurnGlow: 2
@@ -36457,6 +36649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SPAWNER (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6684402696981214921, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
       propertyPath: enemiesCount
       value: 2
@@ -36527,6 +36723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SPAWNER (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6684402696981214921, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
       propertyPath: enemiesCount
       value: 3
@@ -36596,6 +36796,10 @@ PrefabInstance:
     - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
       propertyPath: m_Name
       value: JellyfishEnemy SideH5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36668,6 +36872,7 @@ Transform:
   - {fileID: 1029261052}
   - {fileID: 1307049652}
   - {fileID: 386691453}
+  - {fileID: 1909449773}
   - {fileID: 523708014}
   - {fileID: 1749654949}
   - {fileID: 1871886007}
@@ -36734,6 +36939,10 @@ PrefabInstance:
     - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
       propertyPath: m_Name
       value: PISTOLSHRIMP (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36862,7 +37071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3424455567cdf14da7631c3c6585d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedX: 0.01
+  SpeedX: 0.007
   SpeedY: 0.01
   MaxY: 0.18
 --- !u!4 &1749654949 stripped
@@ -36888,7 +37097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1787060111
 Transform:
   m_ObjectHideFlags: 0
@@ -37168,6 +37377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: REPLACER (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37190,6 +37403,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - GLOW_ON
   - OFFSETUV_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -37435,6 +37649,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - DISTORT_ON
   - OFFSETUV_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -37527,7 +37742,7 @@ Material:
     - _ColorSwapRedLuminosity: 0.5
     - _Contrast: 1
     - _CullingOption: 0
-    - _DistortAmount: 0.5
+    - _DistortAmount: 0.2
     - _DistortTexXSpeed: 5
     - _DistortTexYSpeed: 5
     - _EditorDrawers: 6
@@ -37720,6 +37935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: REPLACER (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7305089186195682564, guid: 6d42b96e3e0ec9d4687d1011ae54fe31, type: 3}
       propertyPath: EnemyPrefab
       value: 
@@ -37854,6 +38073,72 @@ MonoBehaviour:
   SpeedX: 0.004
   SpeedY: 0.01
   MaxY: 0.18
+--- !u!1001 &1909449772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1711467043}
+    m_Modifications:
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 145.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04064103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_Name
+      value: JellyfishEnemy SideH5 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+--- !u!4 &1909449773 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+  m_PrefabInstance: {fileID: 1909449772}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1910134327
 GameObject:
   m_ObjectHideFlags: 0
@@ -37939,6 +38224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PistolShrimpEnemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38021,17 +38310,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 5.09
       objectReference: {fileID: 0}
+    - target: {fileID: 4036300335009672178, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 56.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036300335009672178, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14
+      objectReference: {fileID: 0}
     - target: {fileID: 4076562700019493177, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_Name
       value: JellyfishEnemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4076562700019493177, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7804556868281887517, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.05
+      value: 28.98
       objectReference: {fileID: 0}
     - target: {fileID: 7804556868281887517, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.37
+      value: 10.020001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8311181225246539865, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 45.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 8311181225246539865, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.630003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38094,6 +38403,10 @@ PrefabInstance:
     - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
       propertyPath: m_Name
       value: PISTOLSHRIMP (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38348,82 +38661,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1335423622883864370, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
   m_PrefabInstance: {fileID: 573653598}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2045812510
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2045812511}
-  - component: {fileID: 2045812512}
-  m_Layer: 0
-  m_Name: point (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2045812511
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045812510}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.86, y: 1.76, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1749654949}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2045812512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045812510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ca21bfff9408f44bf12916ef8f4363, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisplayGizmo: 1
-  GizmoType: 2
-  DisplayMode: 0
-  GizmoColor: {r: 1, g: 0.76862746, b: 0, a: 1}
-  PositionMode: 0
-  PositionTexture: {fileID: 0}
-  TextureSize: {x: 50, y: 50}
-  PositionSize: 0.2
-  ColliderRenderType: 0
-  ViewDistance: 200
-  GizmoOffset: {x: 0, y: 0, z: 0}
-  LockX: 0
-  LockedX: 0
-  LockY: 0
-  LockedY: 0
-  LockZ: 0
-  LockedZ: 0
-  DisplayText: 0
-  TextMode: 0
-  TextToDisplay: Some Text
-  TextOffset: {x: 0, y: 0.5, z: 0}
-  TextFontStyle: 0
-  TextSize: 12
-  TextColor: {r: 1, g: 0.76862746, b: 0, a: 1}
-  TextBackgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
-  TextPadding: {x: 5, y: 0, z: 5, w: 0}
-  TextMaxDistance: 14
-  TargetProperty:
-    TargetObject: {fileID: 0}
-    TargetComponent: {fileID: 0}
-    TargetScriptableObject: {fileID: 0}
-    TargetPropertyName: 
 --- !u!1001 &2082262996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38434,19 +38671,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1140429745817248140, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.97
+      value: -11.95
       objectReference: {fileID: 0}
     - target: {fileID: 1140429745817248140, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 1572323107347438500, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 1572323107347438500, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.33
+      value: -4.01
       objectReference: {fileID: 0}
     - target: {fileID: 1709393919783112520, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38488,51 +38717,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1889862147626407851, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 1889862147626407851, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.09
-      objectReference: {fileID: 0}
     - target: {fileID: 4076562700019493177, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
       propertyPath: m_Name
       value: JellyfishEnemy
       objectReference: {fileID: 0}
-    - target: {fileID: 6338814257230630134, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: speed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6338814257230630134, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: points.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6338814257230630134, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: 'points.Array.data[4]'
-      value: 
-      objectReference: {fileID: 2045812511}
-    - target: {fileID: 6338814257230630134, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: 'points.Array.data[5]'
-      value: 
-      objectReference: {fileID: 872510339}
-    - target: {fileID: 7804556868281887517, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 20.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 7804556868281887517, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.45
+    - target: {fileID: 4076562700019493177, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1709393919783112520, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2045812511}
-    - targetCorrespondingSourceObject: {fileID: 1709393919783112520, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 872510339}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52b05151411281445aa9c8fbdc9e1f15, type: 3}
 --- !u!1 &2093311850
@@ -38652,7 +38847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3424455567cdf14da7631c3c6585d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedX: 0.03
+  SpeedX: 0.008
   SpeedY: 0.011
   MaxY: 0.18
 --- !u!21 &2100423070
@@ -38667,6 +38862,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - GLOW_ON
   - OFFSETUV_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -38776,7 +38972,7 @@ Material:
     - _GhostTransparency: 0
     - _GlitchAmount: 3
     - _GlitchSize: 1
-    - _Glow: 10
+    - _Glow: 1.7
     - _GlowGlobal: 1
     - _GradBlend: 1
     - _GradBoostX: 1.2
@@ -39215,6 +39411,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1711467043}
     m_Modifications:
+    - target: {fileID: 1052792722729991950, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1052792722729991950, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1052792722729991950, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216544529751265832, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 6.9579844
+      objectReference: {fileID: 0}
     - target: {fileID: 2345162077623739488, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.49
@@ -39258,6 +39470,30 @@ PrefabInstance:
     - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
       propertyPath: m_Name
       value: PISTOLSHRIMP
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484648632265566846, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7061275
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484648632265566846, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484648632265566846, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484648632265566846, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7080847
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802225467531912369, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 2.9755466
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39315,6 +39551,10 @@ PrefabInstance:
     - target: {fileID: 6489588810306796906, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
       propertyPath: m_Name
       value: SPAWNER
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489588810306796906, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6684402696981214921, guid: cf64807b63058f4428f7f0bc0a012309, type: 3}
       propertyPath: timeBetweenSpawns
@@ -39393,6 +39633,10 @@ PrefabInstance:
     - target: {fileID: 1323842346927495268, guid: 7e5d60d5c0e6e5c44b8130556d6ce216, type: 3}
       propertyPath: m_Name
       value: BossEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323842346927495268, guid: 7e5d60d5c0e6e5c44b8130556d6ce216, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3885807462338356055, guid: 7e5d60d5c0e6e5c44b8130556d6ce216, type: 3}
       propertyPath: m_LocalPosition.x

@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
         {
             yield return new WaitForSeconds(3);
             AddScore(-1);
-            print("reduced 1 point, total: " + _score);
+            //("reduced 1 point, total: " + _score);
             count++;
             if (count > 40) break;
         }

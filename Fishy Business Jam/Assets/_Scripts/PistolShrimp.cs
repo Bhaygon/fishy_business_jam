@@ -2,8 +2,9 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Object = UnityEngine.Object;
 
-public class PistolShrimp : MonoBehaviour
+public class PistolShrimp : MonoBehaviour, IDamageable
 {
     [Header("References")] [SerializeField]
     private Rigidbody2D Rb;
@@ -26,10 +27,22 @@ public class PistolShrimp : MonoBehaviour
     [SerializeField] float _attackCooldown;
     private float _attackCooldownTimer;
     [SerializeField] private GameObject _projectile;
+    [Header("Health")] [SerializeField] private float _health = 3;
+    [SerializeField] private GameObject _onDeathEffect;
 
     private void Start()
     {
         Turn(true);
+    }
+
+    public void ReceiveDamage(int damage)
+    {
+        _health -= damage;
+        if (_health <= 0)
+        {
+            Instantiate(_onDeathEffect, BodyTransform.position, BodyTransform.rotation);
+            this.gameObject.SetActive(false);
+        }
     }
 
     private void FixedUpdate()

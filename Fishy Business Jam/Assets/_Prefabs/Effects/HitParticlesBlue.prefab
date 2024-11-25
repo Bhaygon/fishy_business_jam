@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6954948232513888148}
   - component: {fileID: 3940525197009167506}
   m_Layer: 0
-  m_Name: HITPARTICLES
+  m_Name: HitParticlesBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -751,7 +751,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.16
+      value: 0.58
       mode: 0
       spread: 0
       speed:
@@ -980,7 +980,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 10
+        scalar: 30
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -1366,19 +1366,19 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.8695954, b: 0.18396229, a: 1}
+        key0: {r: 0.1462264, g: 0.9119865, b: 1, a: 1}
         key1: {r: 1, g: 1, b: 1, a: 1}
-        key2: {r: 0.44557488, g: 0.44557488, b: 0.44557488, a: 0}
-        key3: {r: 0.405478, g: 0.405478, b: 0.405478, a: 0.7375363}
-        key4: {r: 0.40164447, g: 0.40164447, b: 0.40164447, a: 0.7921569}
+        key2: {r: 0.7924528, g: 0.30277678, b: 0.36310205, a: 0}
+        key3: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0.7375363}
+        key4: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0.7921569}
         key5: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0.70683354}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
         ctime1: 35659
-        ctime2: 51272
-        ctime3: 52814
-        ctime4: 58211
+        ctime2: 52814
+        ctime3: 65535
+        ctime4: 65535
         ctime5: 65535
         ctime6: 0
         ctime7: 0
@@ -1392,7 +1392,7 @@ ParticleSystem:
         atime7: 0
         m_Mode: 0
         m_ColorSpace: 0
-        m_NumColorKeys: 6
+        m_NumColorKeys: 4
         m_NumAlphaKeys: 7
       minGradient:
         serializedVersion: 2

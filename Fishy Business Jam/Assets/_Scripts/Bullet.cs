@@ -11,9 +11,22 @@ public class Bullet : MonoBehaviour
     [SerializeField] private GameObject particles;
     [SerializeField] private string _ignoreTag;
     [SerializeField] private Transform _particlesSpawnPoint;
+    private Vector2 _initialPosition;
+    public float distance;
+
+    private void Start()
+    {
+        _initialPosition = transform.localPosition;
+    }
 
     void Update()
     {
+        if (Vector2.Distance(_initialPosition, transform.localPosition) > 10)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        
         transform.Translate(Vector3.right * (speed * Time.deltaTime));
         
         _lifeTime -= Time.deltaTime;
@@ -24,12 +37,13 @@ public class Bullet : MonoBehaviour
     {
         if (!other.gameObject.CompareTag(_ignoreTag))
         {
-            print("collision with " + other.gameObject.name);
-            IDamageable target = other.gameObject.GetComponent<IDamageable>();
+            //print("collision with " + other.gameObject.name);
+            IDamageable target = other.gameObject.GetComponentInParent<IDamageable>();
             if (target != null)
             {
                 target.ReceiveDamage(_damage);
             }
+            
             Impact();
         }
     }

@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 4724061079339566763}
   - component: {fileID: 4484959531191921837}
   m_Layer: 0
-  m_Name: PISTOLSHRIMP
+  m_Name: PistolShrimpEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,6 +153,8 @@ MonoBehaviour:
   _attackStart: 1
   _attackCooldown: 3
   _projectile: {fileID: 848168126254247954, guid: 3b61d528b6c52a04c82fc432dee48bec, type: 3}
+  _health: 10
+  _onDeathEffect: {fileID: 6089995940071600226, guid: 21ba9f031c61fc442b6eff3506a89689, type: 3}
 --- !u!95 &4484959531191921837
 Animator:
   serializedVersion: 7

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1153211513732649501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.21184939
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977420780532548086, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900810083854648909, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: m_Name
+      value: ShrimpDeathPS Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208572687972029640, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 1074279384, guid: 408c61ee1c626d746829d4ef01c51dfa, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}

@@ -504,7 +504,7 @@ MonoBehaviour:
   MaxRunSpeed: 14
   GroundLayer:
     serializedVersion: 2
-    m_Bits: 4096
+    m_Bits: 4352
   GroundDetectionRayLength: 0.1
   HeadDetectionRayLength: 0.1
   HeadWidth: 0.9
@@ -529,7 +529,7 @@ MonoBehaviour:
   VisualizationSteps: 90
   _playerAttack: {fileID: 565884317374017798}
   _playerHealthMax: 10
-  _onDeathEffect: {fileID: 6089995940071600226, guid: 21ba9f031c61fc442b6eff3506a89689, type: 3}
+  _onDeathEffect: {fileID: 7900810083854648909, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
 --- !u!1 &9083899468441881801
 GameObject:
   m_ObjectHideFlags: 0

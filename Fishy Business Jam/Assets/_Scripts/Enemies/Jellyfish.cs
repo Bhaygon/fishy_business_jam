@@ -40,22 +40,21 @@ public class Jellyfish : MonoBehaviour, IDamageable
             if (Vector2.Distance(rb.position, points[_point].position) < 0.1f)
             {
                 _point += _direction;
-                
+
                 if (_point >= points.Count || _point < 0)
                 {
                     _direction *= -1;
                     _point += _direction * 2;
                 }
-                
-                print(_point);
             }
-            rb.position = Vector2.MoveTowards( rb.position, points[_point].position, Time.deltaTime * speed);
+
+            rb.position = Vector2.MoveTowards(rb.position, points[_point].position, Time.deltaTime * speed);
         }
-        
+
         _timer -= Time.deltaTime;
         if (_timer <= 0)
         {
-            RaycastHit2D boxHit = Physics2D.BoxCast(transform.position + new Vector3(0f, -0.32f),  new Vector3(1, 1.3f), 0f, Vector2.down, 0,
+            RaycastHit2D boxHit = Physics2D.BoxCast(transform.position + new Vector3(0f, -0.32f), new Vector3(1, 1.3f), 0f, Vector2.down, 0,
                 playerLayer);
             if (boxHit.collider)
             {

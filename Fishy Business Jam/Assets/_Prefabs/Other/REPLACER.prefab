@@ -47,7 +47,7 @@ MonoBehaviour:
   DisplayGizmo: 1
   GizmoType: 2
   DisplayMode: 0
-  GizmoColor: {r: 1, g: 0, b: 0.6994748, a: 1}
+  GizmoColor: {r: 1, g: 0, b: 0.32059526, a: 1}
   PositionMode: 0
   PositionTexture: {fileID: 0}
   TextureSize: {x: 50, y: 50}
@@ -85,9 +85,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2269155379166203808}
-  - component: {fileID: 6684402696981214921}
+  - component: {fileID: 7305089186195682564}
   m_Layer: 0
-  m_Name: SPAWNER
+  m_Name: REPLACER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,7 +109,7 @@ Transform:
   - {fileID: 6376637121796568149}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6684402696981214921
+--- !u!114 &7305089186195682564
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,11 +118,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 6489588810306796906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 974e820f15e67eb4fa6c3bc9ee1d7bde, type: 3}
+  m_Script: {fileID: 11500000, guid: e8eac36629076384595324f22053a3ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies:
-  - {fileID: 2782333037449226104, guid: d3c759eacd33f114ea7398679a710cd5, type: 3}
-  timeBetweenSpawns: 6
-  distance: 1
-  enemiesCount: 15
+  EnemyPrefab: {fileID: 4441182750532045123, guid: 3ec69e7f6efc95642a33f37a0fa26794, type: 3}
+  timeBetweenSpawns: 2

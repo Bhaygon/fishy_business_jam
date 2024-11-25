@@ -98,6 +98,7 @@ public class Player : MonoBehaviour, IDamageable
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.P)) ReceiveDamage(_currentPlayerHealth);
         CountTimers();
         JumpChecks();
         AnimationChecks();

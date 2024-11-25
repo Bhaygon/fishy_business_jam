@@ -990,7 +990,10 @@ MonoBehaviour:
 
     Jump - Space
 
-    Shoot - F'
+    Shoot - F
+
+    Restart
+    - P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6e9cf0165716f3d438c085bf4497e720, type: 2}
   m_sharedMaterial: {fileID: 5688686914546185959, guid: 6e9cf0165716f3d438c085bf4497e720, type: 2}

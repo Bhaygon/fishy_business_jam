@@ -11,6 +11,7 @@ public class Jellyfish : MonoBehaviour, IDamageable
     [SerializeField] private int damage;
     [SerializeField] private int speed;
     [SerializeField] private LayerMask playerLayer;
+    [SerializeField] private GameObject Master;
     private float _timer;
     private int _point = 0;
     private int _direction = 1;
@@ -29,7 +30,7 @@ public class Jellyfish : MonoBehaviour, IDamageable
         if (_health <= 0)
         {
             Instantiate(_onDeathEffect, transform.position, transform.rotation);
-            this.gameObject.SetActive(false);
+            Master.SetActive(false);
         }
     }
 

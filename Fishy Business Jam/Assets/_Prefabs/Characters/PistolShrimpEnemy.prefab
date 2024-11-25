@@ -156,6 +156,7 @@ MonoBehaviour:
   _projectile: {fileID: 848168126254247954, guid: 3b61d528b6c52a04c82fc432dee48bec, type: 3}
   _health: 10
   _onDeathEffect: {fileID: 9053456989746091088, guid: ad38309105fe76c44bdc0faa5264482f, type: 3}
+  Master: {fileID: 2782333037449226104}
 --- !u!95 &4484959531191921837
 Animator:
   serializedVersion: 7

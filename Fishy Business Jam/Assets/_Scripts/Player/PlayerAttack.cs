@@ -35,5 +35,6 @@ public class PlayerAttack : MonoBehaviour
     public void ShootBullet()
     {
         Instantiate(BulletPrefab, ShootPoint.position, transform.rotation);
+        _player.Recoil();
     }
 }

@@ -82,6 +82,7 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] private int _playerHealthMax;
     private int _currentPlayerHealth;
     [SerializeField] private GameObject _onDeathEffect;
+    [SerializeField] private float _recoilForce;
     
     
 
@@ -578,4 +579,8 @@ public class Player : MonoBehaviour, IDamageable
         }
     }
 #endif
+    public void Recoil()
+    {
+         Rb.AddForce(_recoilForce * (_isFacingRight ? Vector2.left : Vector2.right), ForceMode2D.Force);
+    }
 }

@@ -681,6 +681,7 @@ MonoBehaviour:
   _playerAttack: {fileID: 565884317374017798}
   _playerHealthMax: 10
   _onDeathEffect: {fileID: 7900810083854648909, guid: 8acff69932e8db146a877f4c7ed562b4, type: 3}
+  _recoilForce: 0.05
 --- !u!1 &9083899468441881801
 GameObject:
   m_ObjectHideFlags: 0

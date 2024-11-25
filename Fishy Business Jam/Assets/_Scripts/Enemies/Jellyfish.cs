@@ -30,6 +30,7 @@ public class Jellyfish : MonoBehaviour, IDamageable
         if (_health <= 0)
         {
             Instantiate(_onDeathEffect, transform.position, transform.rotation);
+            GameManager.Instance.AddScore(3);
             Master.SetActive(false);
         }
     }

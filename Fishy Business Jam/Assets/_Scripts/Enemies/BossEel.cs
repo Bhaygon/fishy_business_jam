@@ -212,6 +212,7 @@ public class BossEel : MonoBehaviour, IDamageable
             Instantiate(_onDeathEffect, BodyTransform.position, BodyTransform.rotation);
             Instantiate(_onDeathEffect2, BodyTransform.position, BodyTransform.rotation);
             GameManager.Instance.BossKilled();
+            GameManager.Instance.AddScore(100);
             Master.SetActive(false);
         }
     }

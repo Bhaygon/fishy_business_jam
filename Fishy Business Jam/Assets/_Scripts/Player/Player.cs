@@ -120,6 +120,7 @@ public class Player : MonoBehaviour, IDamageable
             GameManager.Instance.UpdateHealthUI(_currentPlayerHealth, _playerHealthMax);
             Die();
         }
+        GameManager.Instance.AddScore(-10);
     }
 
     private void Die()

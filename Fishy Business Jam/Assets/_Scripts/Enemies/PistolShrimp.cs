@@ -42,6 +42,7 @@ public class PistolShrimp : MonoBehaviour, IDamageable
         if (_health <= 0)
         {
             Instantiate(_onDeathEffect, BodyTransform.position, BodyTransform.rotation);
+            GameManager.Instance.AddScore(10);
             Master.SetActive(false);
         }
     }

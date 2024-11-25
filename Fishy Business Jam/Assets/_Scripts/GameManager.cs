@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     public TMP_Text PearlAmountText;
     private int _pearlAmount;
     private bool _ended = false;
+    private int _score;
+    public TMP_Text ScoretText;
+    private Coroutine _timerCo;
 
     private void Awake()
     {
@@ -36,6 +39,25 @@ public class GameManager : MonoBehaviour
         }
         
         StartGameplay();
+    }
+
+    private IEnumerator TimeScore()
+    {
+        int count = 0;
+        while (_ended == false)
+        {
+            yield return new WaitForSeconds(3);
+            AddScore(-1);
+            print("reduced 1 point, total: " + _score);
+            count++;
+            if (count > 40) break;
+        }
+    }
+
+    public void AddScore(int score)
+    {
+        _score += score;
+        if (_score < 0) score = 0;
     }
 
     private void OnEnable()
@@ -59,12 +81,16 @@ public class GameManager : MonoBehaviour
     public void AddPearl()
     {
         _pearlAmount++;
+        AddScore(50);
         PearlAmountText.text = _pearlAmount.ToString();
     }
 
     private void StartGameplay()
     {
         _ended = false;
+        if (_timerCo != null) StopCoroutine(_timerCo);
+        _timerCo = StartCoroutine(TimeScore());
+        _score = 300;
         _pearlAmount = 0;
         PearlAmountText.text = _pearlAmount.ToString();
         DeathCanvas.SetActive(false);
@@ -107,6 +133,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator OnWin()
     {
         yield return new WaitForSeconds(0.5f);
+        ScoretText.text = "Your score is: " + _score + " points \nCollect pearls, kill enemies and do everything faster to increase your score";
         WinCanvas.SetActive(true);
     }
 }
